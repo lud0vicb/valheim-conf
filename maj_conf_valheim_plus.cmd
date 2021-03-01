@@ -1,7 +1,7 @@
 @echo off
 
 set gameconf="e:\Steam\SteamApps\common\Valheim\BepInEx\config\valheim_plus.cfg"
-set serverconf="e:\Steam\SteamApps\common\Valheim dedicated serverr\BepInEx\config\valheim_plus.cfg"
+set serverconf="e:\Steam\SteamApps\common\Valheim dedicated server\BepInEx\config\valheim_plus.cfg"
 set quickconnect="%valheim%\BepInEx\config\quick_connect_servers.cfg"
 set quickdll="%valheim%\BepInEx\plugins\QuickConnect.dll"
 
