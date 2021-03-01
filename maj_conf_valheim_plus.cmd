@@ -8,4 +8,4 @@ set quickdll="%valheim%\BepInEx\plugins\QuickConnect.dll"
 
 curl -o %gameconf% https://raw.githubusercontent.com/lud0vicb/valheim-conf/main/Valheim/BepInEx/config/valheim_plus.cfg
 curl -o %quickconnect% https://raw.githubusercontent.com/lud0vicb/valheim-conf/main/Valheim/BepInEx/config/quick_connect_servers.cfg
-curl -o %quickdll% https://github.com/lud0vicb/valheim-conf/raw/main/Valheim/BepInEx/plugins/QuickConnect.dll
+curl -o %quickdll% https://raw.githubusercontent.com/lud0vicb/valheim-conf/main/Valheim/BepInEx/plugins/QuickConnect.dll
