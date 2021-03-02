@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -x
 WORLD="/mnt/c/Users/lud0vicb/AppData/LocalLow/IronGate/Valheim"
 BACKUP="/home/bellierl/Documents/valheim/backup"
 
