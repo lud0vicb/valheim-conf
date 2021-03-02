@@ -1,0 +1,1206 @@
+Mono path[0] = 'E:/Steam/steamapps/common/Valheim/valheim_Data/Managed'
+Mono config path = 'E:/Steam/steamapps/common/Valheim/MonoBleedingEdge/etc'
+Fallback handler could not load library E:/Steam/steamapps/common/Valheim/valheim_Data/Mono/lib/usr/lib/libSystem.dylib
+Fallback handler could not load library E:/Steam/steamapps/common/Valheim/valheim_Data/Mono/lib/usr/lib/libSystem.dylib.dll
+Fallback handler could not load library E:/Steam/steamapps/common/Valheim/valheim_Data/Mono/lib/usr/lib/libSystem.dylib
+Fallback handler could not load library E:/Steam/steamapps/common/Valheim/valheim_Data/Mono/libc.so.6
+Fallback handler could not load library E:/Steam/steamapps/common/Valheim/valheim_Data/Mono/libc.so.6.dll
+Fallback handler could not load library E:/Steam/steamapps/common/Valheim/valheim_Data/Mono/libc.so.6
+Fallback handler could not load library E:/Steam/steamapps/common/Valheim/valheim_Data/Mono/data-00000205A0484080.dll
+Fallback handler could not load library E:/Steam/steamapps/common/Valheim/valheim_Data/Mono/data-00000205A3790080.dll
+Initialize engine version: 2019.4.20f1 (6dd1c08eedfa)
+[Subsystems] Discovering subsystems at path E:/Steam/steamapps/common/Valheim/valheim_Data/UnitySubsystems
+Forcing GfxDevice: Vulkan
+GfxDevice: creating device client; threaded=1
+[Vulkan init] extensions: count=15
+[Vulkan init] extensions: name=VK_KHR_device_group_creation, enabled=0
+[Vulkan init] extensions: name=VK_KHR_display, enabled=1
+[Vulkan init] extensions: name=VK_KHR_external_fence_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_memory_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_display_properties2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_surface, enabled=1
+[Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_win32_surface, enabled=1
+[Vulkan init] extensions: name=VK_EXT_debug_report, enabled=0
+[Vulkan init] extensions: name=VK_EXT_debug_utils, enabled=0
+[Vulkan init] extensions: name=VK_EXT_swapchain_colorspace, enabled=1
+[Vulkan init] extensions: name=VK_NV_external_memory_capabilities, enabled=0
+[Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=0000000000000000
+[Vulkan init] Physical Device 00000205A3E78F50 [0]: "GeForce GTX 1070" deviceType=2 vendorID=10de deviceID=1b81
+[Vulkan init] Selected physical device 00000205A3E78F50
+[Vulkan init] Graphics queue count=1
+[Vulkan init] extensions: count=119
+[Vulkan init] extensions: name=VK_KHR_16bit_storage, enabled=0
+[Vulkan init] extensions: name=VK_KHR_8bit_storage, enabled=0
+[Vulkan init] extensions: name=VK_KHR_bind_memory2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_buffer_device_address, enabled=0
+[Vulkan init] extensions: name=VK_KHR_copy_commands2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_create_renderpass2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_dedicated_allocation, enabled=1
+[Vulkan init] extensions: name=VK_KHR_deferred_host_operations, enabled=0
+[Vulkan init] extensions: name=VK_KHR_depth_stencil_resolve, enabled=0
+[Vulkan init] extensions: name=VK_KHR_descriptor_update_template, enabled=1
+[Vulkan init] extensions: name=VK_KHR_device_group, enabled=0
+[Vulkan init] extensions: name=VK_KHR_draw_indirect_count, enabled=0
+[Vulkan init] extensions: name=VK_KHR_driver_properties, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_fence, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_fence_win32, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_memory, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_memory_win32, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_semaphore, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_semaphore_win32, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_memory_requirements2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_image_format_list, enabled=1
+[Vulkan init] extensions: name=VK_KHR_imageless_framebuffer, enabled=0
+[Vulkan init] extensions: name=VK_KHR_maintenance1, enabled=1
+[Vulkan init] extensions: name=VK_KHR_maintenance2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_maintenance3, enabled=0
+[Vulkan init] extensions: name=VK_KHR_multiview, enabled=1
+[Vulkan init] extensions: name=VK_KHR_pipeline_executable_properties, enabled=0
+[Vulkan init] extensions: name=VK_KHR_pipeline_library, enabled=0
+[Vulkan init] extensions: name=VK_KHR_push_descriptor, enabled=0
+[Vulkan init] extensions: name=VK_KHR_relaxed_block_layout, enabled=0
+[Vulkan init] extensions: name=VK_KHR_sampler_mirror_clamp_to_edge, enabled=1
+[Vulkan init] extensions: name=VK_KHR_sampler_ycbcr_conversion, enabled=0
+[Vulkan init] extensions: name=VK_KHR_separate_depth_stencil_layouts, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_atomic_int64, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_clock, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_draw_parameters, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_float16_int8, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_float_controls, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_non_semantic_info, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_subgroup_extended_types, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_terminate_invocation, enabled=0
+[Vulkan init] extensions: name=VK_KHR_spirv_1_4, enabled=0
+[Vulkan init] extensions: name=VK_KHR_storage_buffer_storage_class, enabled=0
+[Vulkan init] extensions: name=VK_KHR_swapchain, enabled=1
+[Vulkan init] extensions: name=VK_KHR_swapchain_mutable_format, enabled=0
+[Vulkan init] extensions: name=VK_KHR_timeline_semaphore, enabled=0
+[Vulkan init] extensions: name=VK_KHR_uniform_buffer_standard_layout, enabled=0
+[Vulkan init] extensions: name=VK_KHR_variable_pointers, enabled=0
+[Vulkan init] extensions: name=VK_KHR_vulkan_memory_model, enabled=0
+[Vulkan init] extensions: name=VK_KHR_win32_keyed_mutex, enabled=0
+[Vulkan init] extensions: name=VK_EXT_4444_formats, enabled=0
+[Vulkan init] extensions: name=VK_EXT_blend_operation_advanced, enabled=0
+[Vulkan init] extensions: name=VK_EXT_buffer_device_address, enabled=0
+[Vulkan init] extensions: name=VK_EXT_calibrated_timestamps, enabled=0
+[Vulkan init] extensions: name=VK_EXT_conditional_rendering, enabled=0
+[Vulkan init] extensions: name=VK_EXT_conservative_rasterization, enabled=0
+[Vulkan init] extensions: name=VK_EXT_custom_border_color, enabled=0
+[Vulkan init] extensions: name=VK_EXT_depth_clip_enable, enabled=0
+[Vulkan init] extensions: name=VK_EXT_depth_range_unrestricted, enabled=0
+[Vulkan init] extensions: name=VK_EXT_descriptor_indexing, enabled=0
+[Vulkan init] extensions: name=VK_EXT_discard_rectangles, enabled=0
+[Vulkan init] extensions: name=VK_EXT_extended_dynamic_state, enabled=0
+[Vulkan init] extensions: name=VK_EXT_external_memory_host, enabled=0
+[Vulkan init] extensions: name=VK_EXT_fragment_shader_interlock, enabled=0
+[Vulkan init] extensions: name=VK_EXT_full_screen_exclusive, enabled=0
+[Vulkan init] extensions: name=VK_EXT_hdr_metadata, enabled=1
+[Vulkan init] extensions: name=VK_EXT_host_query_reset, enabled=0
+[Vulkan init] extensions: name=VK_EXT_image_robustness, enabled=0
+[Vulkan init] extensions: name=VK_EXT_index_type_uint8, enabled=0
+[Vulkan init] extensions: name=VK_EXT_inline_uniform_block, enabled=0
+[Vulkan init] extensions: name=VK_EXT_line_rasterization, enabled=0
+[Vulkan init] extensions: name=VK_EXT_memory_budget, enabled=0
+[Vulkan init] extensions: name=VK_EXT_memory_priority, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pci_bus_info, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pipeline_creation_cache_control, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pipeline_creation_feedback, enabled=0
+[Vulkan init] extensions: name=VK_EXT_post_depth_coverage, enabled=0
+[Vulkan init] extensions: name=VK_EXT_private_data, enabled=0
+[Vulkan init] extensions: name=VK_EXT_robustness2, enabled=0
+[Vulkan init] extensions: name=VK_EXT_sample_locations, enabled=0
+[Vulkan init] extensions: name=VK_EXT_sampler_filter_minmax, enabled=0
+[Vulkan init] extensions: name=VK_EXT_scalar_block_layout, enabled=0
+[Vulkan init] extensions: name=VK_EXT_separate_stencil_usage, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_atomic_float, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_demote_to_helper_invocation, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_image_atomic_int64, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_subgroup_ballot, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_subgroup_vote, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_viewport_index_layer, enabled=0
+[Vulkan init] extensions: name=VK_EXT_subgroup_size_control, enabled=0
+[Vulkan init] extensions: name=VK_EXT_texel_buffer_alignment, enabled=0
+[Vulkan init] extensions: name=VK_EXT_tooling_info, enabled=0
+[Vulkan init] extensions: name=VK_EXT_transform_feedback, enabled=0
+[Vulkan init] extensions: name=VK_EXT_vertex_attribute_divisor, enabled=0
+[Vulkan init] extensions: name=VK_EXT_ycbcr_image_arrays, enabled=0
+[Vulkan init] extensions: name=VK_NV_acquire_winrt_display, enabled=0
+[Vulkan init] extensions: name=VK_NV_clip_space_w_scaling, enabled=0
+[Vulkan init] extensions: name=VK_NV_coverage_reduction_mode, enabled=0
+[Vulkan init] extensions: name=VK_NV_dedicated_allocation, enabled=0
+[Vulkan init] extensions: name=VK_NV_dedicated_allocation_image_aliasing, enabled=0
+[Vulkan init] extensions: name=VK_NV_device_diagnostic_checkpoints, enabled=0
+[Vulkan init] extensions: name=VK_NV_device_diagnostics_config, enabled=0
+[Vulkan init] extensions: name=VK_NV_device_generated_commands, enabled=0
+[Vulkan init] extensions: name=VK_NV_external_memory, enabled=0
+[Vulkan init] extensions: name=VK_NV_external_memory_win32, enabled=0
+[Vulkan init] extensions: name=VK_NV_fill_rectangle, enabled=0
+[Vulkan init] extensions: name=VK_NV_fragment_coverage_to_color, enabled=0
+[Vulkan init] extensions: name=VK_NV_framebuffer_mixed_samples, enabled=0
+[Vulkan init] extensions: name=VK_NV_geometry_shader_passthrough, enabled=0
+[Vulkan init] extensions: name=VK_NV_ray_tracing, enabled=0
+[Vulkan init] extensions: name=VK_NV_sample_mask_override_coverage, enabled=0
+[Vulkan init] extensions: name=VK_NV_shader_sm_builtins, enabled=0
+[Vulkan init] extensions: name=VK_NV_shader_subgroup_partitioned, enabled=0
+[Vulkan init] extensions: name=VK_NV_viewport_array2, enabled=0
+[Vulkan init] extensions: name=VK_NV_viewport_swizzle, enabled=0
+[Vulkan init] extensions: name=VK_NV_win32_keyed_mutex, enabled=0
+[Vulkan init] extensions: name=VK_NVX_multiview_per_view_attributes, enabled=0
+[Vulkan init] extensions: name=VK_KHR_acceleration_structure, enabled=0
+[Vulkan init] extensions: name=VK_KHR_ray_tracing_pipeline, enabled=0
+Vulkan API version 1.1.0 (1.2.155 supported by driver)
+Vulkan vendor=[NVIDIA] id=[10de]
+Vulkan renderer=[GeForce GTX 1070] id=[1b81]
+Vulkan device type 2
+Vulkan driverversion=[0x73520000] uint=[1934753792]
+Vulkan PSO: Cache data successfully loaded [size=4990817,path=C:/Users/lud0vicb/AppData/Local/Temp/IronGate/Valheim/vulkan_pso_cache.bin]
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.084 seconds
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Vulkan, only Direct3D 11 and Direct3D 12 (only on desktop) are supported.
+<RI> Initializing input.
+<RI> Input initialized.
+InitializeOrResetSwapChain 2560x1080 hdr=0 samples=1
+<RI> Initialized touch support.
+UnloadTime: 1.582600 ms
+[Message:   BepInEx] BepInEx 5.4.5.0 - valheim
+[Info   :   BepInEx] Running under Unity v2019.4.20.7197120
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] 1 patcher plugin loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 5 plugins to load
+[Info   :   BepInEx] Loading [Custom Textures 0.6.0]
+CustomTextures adding player_model_1_texture.png.png custom texture. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+CustomTextures adding player_model_2_texture.png - Copie.png custom texture. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+CustomTextures adding player_model_3_texture.png - Copie (2).png custom texture. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[Info   :  HarmonyX] Created Harmony instance id=harmony-auto-4217c0eb-2e7f-44b9-9fde-3bd015f4ef9a, version=2.0.0.0, location=E:\Steam\steamapps\common\Valheim\BepInEx\core\0Harmony20.dll - Started from System.Void HarmonyLib.Tools.Logger::Log(HarmonyLib.Tools.Logger+LogChannel,System.Func`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]) location=E:\Steam\steamapps\common\Valheim\BepInEx\core\0Harmony.dll
+[Info   :  HarmonyX] Patching harmony-auto-4217c0eb-2e7f-44b9-9fde-3bd015f4ef9a...
+[Info   :  HarmonyX] Patching System.Void ZNetScene::Awake()
+[Info   :  HarmonyX] HarmonyPrepare result: True
+[Info   :  HarmonyX] Patching System.Void ZNetScene::Awake() with 0 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 postfixes:
+* static System.Void CustomTextures.ZNetScene_Awake_Patch::Postfix(System.Collections.Generic.Dictionary`2<System.Int32, UnityEngine.GameObject> ___m_namedPrefabs)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void ZNetScene::Awake()
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching harmony-auto-4217c0eb-2e7f-44b9-9fde-3bd015f4ef9a took 20ms
+[Info   :  HarmonyX] Patching harmony-auto-4217c0eb-2e7f-44b9-9fde-3bd015f4ef9a...
+[Info   :  HarmonyX] Patching System.Void VisEquipment::Awake()
+[Info   :  HarmonyX] HarmonyPrepare result: True
+[Info   :  HarmonyX] Patching System.Void VisEquipment::Awake() with 0 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 postfixes:
+* static System.Void CustomTextures.VisEquipment_Awake_Patch::Postfix(VisEquipment __instance)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void VisEquipment::Awake()
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching harmony-auto-4217c0eb-2e7f-44b9-9fde-3bd015f4ef9a took 8ms
+[Info   :  HarmonyX] Patching harmony-auto-4217c0eb-2e7f-44b9-9fde-3bd015f4ef9a...
+[Info   :  HarmonyX] Patching System.Boolean VisEquipment::SetLeftHandEquiped(System.Int32,System.Int32)
+[Info   :  HarmonyX] HarmonyPrepare result: True
+[Info   :  HarmonyX] Patching System.Boolean VisEquipment::SetLeftHandEquiped(System.Int32 hash, System.Int32 variant) with 0 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 postfixes:
+* static System.Void CustomTextures.VisEquipment_SetLeftHandEquiped_Patch::Postfix(System.Boolean __result, System.String ___m_leftItem, UnityEngine.GameObject ___m_leftItemInstance)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Boolean VisEquipment::SetLeftHandEquiped(System.Int32 hash, System.Int32 variant)
+[Info   :  HarmonyX] Writing postfixes
+Fallback handler could not load library E:/Steam/steamapps/common/Valheim/valheim_Data/Mono/data-00000205EC496A80.dll
+[Info   :  HarmonyX] Patching harmony-auto-4217c0eb-2e7f-44b9-9fde-3bd015f4ef9a took 8ms
+[Info   :  HarmonyX] Patching harmony-auto-4217c0eb-2e7f-44b9-9fde-3bd015f4ef9a...
+[Info   :  HarmonyX] Patching System.Boolean VisEquipment::SetRightHandEquiped(System.Int32)
+[Info   :  HarmonyX] HarmonyPrepare result: True
+[Info   :  HarmonyX] Patching System.Boolean VisEquipment::SetRightHandEquiped(System.Int32 hash) with 0 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 postfixes:
+* static System.Void CustomTextures.VisEquipment_SetRightHandEquiped_Patch::Postfix(System.Boolean __result, System.String ___m_rightItem, UnityEngine.GameObject ___m_rightItemInstance)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Boolean VisEquipment::SetRightHandEquiped(System.Int32 hash)
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching harmony-auto-4217c0eb-2e7f-44b9-9fde-3bd015f4ef9a took 7ms
+[Info   :  HarmonyX] Patching harmony-auto-4217c0eb-2e7f-44b9-9fde-3bd015f4ef9a...
+[Info   :  HarmonyX] Patching System.Boolean VisEquipment::SetHelmetEquiped(System.Int32,System.Int32)
+[Info   :  HarmonyX] HarmonyPrepare result: True
+[Info   :  HarmonyX] Patching System.Boolean VisEquipment::SetHelmetEquiped(System.Int32 hash, System.Int32 hairHash) with 0 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 postfixes:
+* static System.Void CustomTextures.VisEquipment_SetHelmetEquiped_Patch::Postfix(System.Boolean __result, System.String ___m_helmetItem, UnityEngine.GameObject ___m_helmetItemInstance)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Boolean VisEquipment::SetHelmetEquiped(System.Int32 hash, System.Int32 hairHash)
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching harmony-auto-4217c0eb-2e7f-44b9-9fde-3bd015f4ef9a took 6ms
+[Info   :  HarmonyX] Patching harmony-auto-4217c0eb-2e7f-44b9-9fde-3bd015f4ef9a...
+[Info   :  HarmonyX] Patching System.Boolean VisEquipment::SetBackEquiped(System.Int32,System.Int32,System.Int32)
+[Info   :  HarmonyX] HarmonyPrepare result: True
+[Info   :  HarmonyX] Patching System.Boolean VisEquipment::SetBackEquiped(System.Int32 leftItem, System.Int32 rightItem, System.Int32 leftVariant) with 0 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 postfixes:
+* static System.Void CustomTextures.VisEquipment_SetBackEquiped_Patch::Postfix(System.Boolean __result, System.String ___m_leftBackItem, UnityEngine.GameObject ___m_leftBackItemInstance, System.String ___m_rightBackItem, UnityEngine.GameObject ___m_rightBackItemInstance)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Boolean VisEquipment::SetBackEquiped(System.Int32 leftItem, System.Int32 rightItem, System.Int32 leftVariant)
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching harmony-auto-4217c0eb-2e7f-44b9-9fde-3bd015f4ef9a took 6ms
+[Info   :  HarmonyX] Patching harmony-auto-4217c0eb-2e7f-44b9-9fde-3bd015f4ef9a...
+[Info   :  HarmonyX] Patching System.Boolean VisEquipment::SetShoulderEquiped(System.Int32,System.Int32)
+[Info   :  HarmonyX] HarmonyPrepare result: True
+[Info   :  HarmonyX] Patching System.Boolean VisEquipment::SetShoulderEquiped(System.Int32 hash, System.Int32 variant) with 0 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 postfixes:
+* static System.Void CustomTextures.VisEquipment_SetShoulderEquiped_Patch::Postfix(System.Boolean __result, System.String ___m_shoulderItem, System.Collections.Generic.List`1<UnityEngine.GameObject> ___m_shoulderItemInstances)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Boolean VisEquipment::SetShoulderEquiped(System.Int32 hash, System.Int32 variant)
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching harmony-auto-4217c0eb-2e7f-44b9-9fde-3bd015f4ef9a took 7ms
+[Info   :  HarmonyX] Patching harmony-auto-4217c0eb-2e7f-44b9-9fde-3bd015f4ef9a...
+[Info   :  HarmonyX] Patching System.Boolean VisEquipment::SetUtilityEquiped(System.Int32)
+[Info   :  HarmonyX] HarmonyPrepare result: True
+[Info   :  HarmonyX] Patching System.Boolean VisEquipment::SetUtilityEquiped(System.Int32 hash) with 0 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 postfixes:
+* static System.Void CustomTextures.VisEquipment_SetUtilityEquiped_Patch::Postfix(System.Boolean __result, System.String ___m_utilityItem, System.Collections.Generic.List`1<UnityEngine.GameObject> ___m_utilityItemInstances)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Boolean VisEquipment::SetUtilityEquiped(System.Int32 hash)
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching harmony-auto-4217c0eb-2e7f-44b9-9fde-3bd015f4ef9a took 6ms
+[Info   :  HarmonyX] Patching harmony-auto-4217c0eb-2e7f-44b9-9fde-3bd015f4ef9a...
+[Info   :  HarmonyX] Patching System.Boolean VisEquipment::SetLegEquiped(System.Int32)
+[Info   :  HarmonyX] HarmonyPrepare result: True
+[Info   :  HarmonyX] Patching System.Boolean VisEquipment::SetLegEquiped(System.Int32 hash) with 0 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 postfixes:
+* static System.Void CustomTextures.VisEquipment_SetLegEquiped_Patch::Postfix(System.Boolean __result, System.String ___m_legItem, UnityEngine.SkinnedMeshRenderer ___m_bodyModel, System.Collections.Generic.List`1<UnityEngine.GameObject> ___m_legItemInstances)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Boolean VisEquipment::SetLegEquiped(System.Int32 hash)
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching harmony-auto-4217c0eb-2e7f-44b9-9fde-3bd015f4ef9a took 11ms
+[Info   :  HarmonyX] Patching harmony-auto-4217c0eb-2e7f-44b9-9fde-3bd015f4ef9a...
+[Info   :  HarmonyX] Patching System.Boolean VisEquipment::SetChestEquiped(System.Int32)
+[Info   :  HarmonyX] HarmonyPrepare result: True
+[Info   :  HarmonyX] Patching System.Boolean VisEquipment::SetChestEquiped(System.Int32 hash) with 0 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 postfixes:
+* static System.Void CustomTextures.VisEquipment_SetChestEquiped_Patch::Postfix(System.Boolean __result, System.String ___m_chestItem, UnityEngine.SkinnedMeshRenderer ___m_bodyModel, System.Collections.Generic.List`1<UnityEngine.GameObject> ___m_chestItemInstances)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Boolean VisEquipment::SetChestEquiped(System.Int32 hash)
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching harmony-auto-4217c0eb-2e7f-44b9-9fde-3bd015f4ef9a took 11ms
+[Info   :   BepInEx] Loading [Ship Speed Mod 0.2.2]
+[Info   :  HarmonyX] Created Harmony instance id=aedenthorn.ShipSpeed, version=2.0.0.0, location=E:\Steam\steamapps\common\Valheim\BepInEx\core\0Harmony20.dll - Started from System.Void HarmonyLib.Tools.Logger::Log(HarmonyLib.Tools.Logger+LogChannel,System.Func`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]) location=E:\Steam\steamapps\common\Valheim\BepInEx\core\0Harmony.dll
+[Info   :  HarmonyX] Patching aedenthorn.ShipSpeed...
+[Info   :  HarmonyX] Patching System.Void Ship::Awake()
+[Info   :  HarmonyX] HarmonyPrepare result: True
+[Info   :  HarmonyX] Patching System.Void Ship::Awake() with 0 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 postfixes:
+* static System.Void ShipSpeed.Awake_Patch::Postfix(System.Single& ___m_forceDistance, System.Single& ___m_force, System.Single& ___m_damping, System.Single& ___m_dampingSideway, System.Single& ___m_dampingForward, System.Single& ___m_angularDamping, System.Single& ___m_disableLevel, System.Single& ___m_sailForceFactor, System.Single& ___m_rudderSpeed, System.Single& ___m_stearForceOffset, System.Single& ___m_stearForce, System.Single& ___m_stearVelForceFactor, System.Single& ___m_backwardForce, System.Single& ___m_rudderRotationMax, System.Single& ___m_rudderRotationSpeed, System.Single& ___m_minWaterImpactForce, System.Single& ___m_minWaterImpactInterval, System.Single& ___m_waterImpactDamage, System.Single& ___m_upsideDownDmgInterval, System.Single& ___m_upsideDownDmg)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void Ship::Awake()
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching aedenthorn.ShipSpeed took 13ms
+[Info   :  HarmonyX] Patching aedenthorn.ShipSpeed...
+[Info   :  HarmonyX] Patching UnityEngine.Vector3 Ship::GetSailForce(System.Single,System.Single)
+[Info   :  HarmonyX] HarmonyPrepare result: True
+[Info   :  HarmonyX] Patching UnityEngine.Vector3 Ship::GetSailForce(System.Single sailSize, System.Single dt) with 0 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 postfixes:
+* static System.Void ShipSpeed.FixedUpdate_Patch::Postfix(Ship __instance, UnityEngine.Vector3& __result)
+
+[Info   :  HarmonyX] Running ILHook manipulator on UnityEngine.Vector3 Ship::GetSailForce(System.Single sailSize, System.Single dt)
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching aedenthorn.ShipSpeed took 8ms
+[Info   :  HarmonyX] Patching aedenthorn.ShipSpeed...
+[Info   :  HarmonyX] Patching System.Single Ship::GetWindAngleFactor()
+[Info   :  HarmonyX] HarmonyPrepare result: True
+[Info   :  HarmonyX] Patching System.Single Ship::GetWindAngleFactor() with 0 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 postfixes:
+* static System.Void ShipSpeed.GetWindAngleFactor_Patch::Postfix(Ship __instance, System.Single& __result)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Single Ship::GetWindAngleFactor()
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching aedenthorn.ShipSpeed took 6ms
+[Info   :  HarmonyX] Patching aedenthorn.ShipSpeed...
+[Info   :  HarmonyX] Patching System.Void Console::InputText()
+[Info   :  HarmonyX] HarmonyPrepare result: True
+[Info   :  HarmonyX] Patching System.Void Console::InputText() with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Boolean ShipSpeed.InputText_Patch::Prefix(Console __instance)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void Console::InputText()
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching aedenthorn.ShipSpeed took 62ms
+[Info   :   BepInEx] Loading [QuickConnect 1.2.0]
+[Info   :  HarmonyX] Created Harmony instance id=net.bdew.valheim.QuickConnect, version=2.0.0.0, location=E:\Steam\steamapps\common\Valheim\BepInEx\core\0Harmony20.dll - Started from System.Void HarmonyLib.Tools.Logger::Log(HarmonyLib.Tools.Logger+LogChannel,System.Func`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]) location=E:\Steam\steamapps\common\Valheim\BepInEx\core\0Harmony.dll
+[Info   :  HarmonyX] Patching net.bdew.valheim.QuickConnect...
+[Info   :  HarmonyX] Patching System.Void ZNet::RPC_ClientHandshake(ZRpc,System.Boolean)
+[Info   :  HarmonyX] HarmonyPrepare result: True
+[Info   :  HarmonyX] Patching System.Void ZNet::RPC_ClientHandshake(ZRpc rpc, System.Boolean needPassword) with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Boolean QuickConnect.PatchPasswordPrompt::Prefix(ZNet __instance, ZRpc rpc, System.Boolean needPassword)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void ZNet::RPC_ClientHandshake(ZRpc rpc, System.Boolean needPassword)
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching net.bdew.valheim.QuickConnect took 8ms
+[Info   :  HarmonyX] Patching net.bdew.valheim.QuickConnect...
+[Info   :  HarmonyX] Patching System.Void ZSteamMatchmaking::OnJoinServerFailed()
+[Info   :  HarmonyX] HarmonyPrepare result: True
+[Info   :  HarmonyX] Patching System.Void ZSteamMatchmaking::OnJoinServerFailed() with 0 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 postfixes:
+* static System.Void QuickConnect.PatchConnectFailed::Postfix()
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void ZSteamMatchmaking::OnJoinServerFailed()
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching net.bdew.valheim.QuickConnect took 4ms
+[Info   :  HarmonyX] Patching net.bdew.valheim.QuickConnect...
+[Info   :  HarmonyX] Patching System.Void FejdStartup::OnSelelectCharacterBack()
+[Info   :  HarmonyX] HarmonyPrepare result: True
+[Info   :  HarmonyX] Patching System.Void FejdStartup::OnSelelectCharacterBack() with 0 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 postfixes:
+* static System.Void QuickConnect.PatchCharacterBack::Postfix()
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void FejdStartup::OnSelelectCharacterBack()
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching net.bdew.valheim.QuickConnect took 4ms
+[Info   :  HarmonyX] Patching net.bdew.valheim.QuickConnect...
+[Info   :  HarmonyX] Patching System.Void FejdStartup::SetupGui()
+[Info   :  HarmonyX] HarmonyPrepare result: True
+[Info   :  HarmonyX] Patching System.Void FejdStartup::SetupGui() with 0 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 postfixes:
+* static System.Void QuickConnect.PatchUiInit::Postfix()
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void FejdStartup::SetupGui()
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching net.bdew.valheim.QuickConnect took 8ms
+[Info   :   BepInEx] Loading [Valheim Plus 0.9]
+[Info   :Valheim Plus] Trying to load the configuration file
+Fallback handler could not load library E:/Steam/steamapps/common/Valheim/valheim_Data/Mono/data-00000205EC7C9020.dll
+Loading config section AdvancedBuildingMode 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key enterAdvancedBuildingMode 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key exitAdvancedBuildingMode 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading config section AdvancedEditingMode 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key enterAdvancedEditingMode 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key resetAdvancedEditingMode 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key abortAndExitAdvancedEditingMode 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key confirmPlacementOfAdvancedEditingMode 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading config section Beehive 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Section not enabled 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading config section Building 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Section not enabled 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading config section Items 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Section not enabled 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading config section Fermenter 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Section not enabled 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading config section Fireplace 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Section not enabled 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading config section Food 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key foodDurationMultiplier 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading config section Furnace 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Section not enabled 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading config section Hotkeys 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Section not enabled 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading config section Kiln 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Section not enabled 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading config section Map 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key shareMapProgression 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key exploreRadius 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key playerPositionPublicOnJoin 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key preventPlayerFromTurningOffPublicPosition 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key removeDeathPinOnTombstoneEmpty 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading config section Player 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key baseMaximumWeight 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key baseMegingjordBuff 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key baseAutoPickUpRange 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key disableCameraShake 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key baseUnarmedDamage 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading config section Server 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key maxPlayers 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key disableServerPassword 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key enforceMod 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key dataRate 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key autoSaveInterval 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading config section Stamina 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key dodgeStaminaUsage 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key encumberedStaminaDrain 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key jumpStaminaDrain 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key runStaminaDrain 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key sneakStaminaDrain 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key staminaRegen 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key staminaRegenDelay 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key swimStaminaDrain 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading config section StaminaUsage 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key axes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key bows 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key clubs 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key knives 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key pickaxes 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key polearms 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key spears 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key swords 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key unarmed 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key hammer 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key hoe 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading config section Workbench 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key workbenchRange 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key disableRoofCheck 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading config section Time 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key totalDayTimeInSeconds 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key nightTimeSpeedMultiplier 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading config section Ward 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Section not enabled 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading config section StructuralIntegrity 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Section not enabled 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading config section Hud 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Section not enabled 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading config section Experience 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Section not enabled 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading config section Camera 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key cameraMaximumZoomDistance 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key cameraBoatMaximumZoomDistance 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key cameraFOV 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading config section Game 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key gameDifficultyDamageScale 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key gameDifficultyHealthScale 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key extraPlayerCountNearby 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key setFixedPlayerCountTo 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key difficultyScaleRange 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading config section Wagon 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Section not enabled 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[Info   :Valheim Plus] Configuration file loaded succesfully.
+[Info   :  HarmonyX] ### Harmony id=mod.valheim_plus, version=2.3.0.0, location=E:\Steam\steamapps\common\Valheim\BepInEx\core\0Harmony.dll, env/clr=4.0.30319.42000, platform=Win32NT
+### Started from static System.Void HarmonyLib.Tools.Logger::Log(HarmonyLib.Tools.LogChannel channel, System.Func`1<System.String> message), location E:\Steam\steamapps\common\Valheim\BepInEx\core\0Harmony.dll
+### At 2021-03-02 01.00.48
+[Info   :  HarmonyX] Patching System.Void Player::UpdatePlacementGhost(System.Boolean flashGuardStone) with 1 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Boolean ValheimPlus.ModifyPlacingRestrictionOfGhost::Prefix(Player __instance, System.Boolean flashGuardStone)
+1 postfixes:
+* static System.Void ValheimPlus.ModifyPlacingRestrictionOfGhost::Postfix(Player& __instance)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void Player::UpdatePlacementGhost(System.Boolean flashGuardStone)
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching System.Void Player::Update() with 0 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 postfixes:
+* static System.Void ValheimPlus.AdvancedEditingModeHook::Postfix(Player __instance)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void Player::Update()
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching System.Void GameCamera::UpdateCamera(System.Single dt) with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Void ValheimPlus.BlockCameraScrollInAEM::Prefix(GameCamera __instance)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void GameCamera::UpdateCamera(System.Single dt)
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching System.Void Beehive::Awake() with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Boolean ValheimPlus.ApplyBeehiveChanges::Prefix(System.Single& ___m_secPerUnit, System.Int32& ___m_maxHoney)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void Beehive::Awake()
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching System.Void Skills::RaiseSkill(SkillType skillType, System.Single factor) with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Void ValheimPlus.AddExpGainedDisplay::Prefix(Skills& __instance, SkillType& skillType, System.Single& factor)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void Skills::RaiseSkill(SkillType skillType, System.Single factor)
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching System.Void FejdStartup::SetupGui() with 0 prefixes, 2 postfixes, 0 transpilers, 0 finalizers
+2 postfixes:
+* static System.Void QuickConnect.PatchUiInit::Postfix()
+* static System.Void ValheimPlus.PatchUI::Postfix()
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void FejdStartup::SetupGui()
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching System.Void Fireplace::UpdateFireplace() with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Boolean ValheimPlus.TorchesNoFuel::Prefix(Fireplace& __instance, ZNetView& ___m_nview)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void Fireplace::UpdateFireplace()
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching ItemData Humanoid::GetCurrentWeapon() with 0 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 postfixes:
+* static ItemData ValheimPlus.ModifyCurrentWeapon::Postfix(ItemData __weapon, Character& __instance)
+
+[Info   :  HarmonyX] Running ILHook manipulator on ItemData Humanoid::GetCurrentWeapon()
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching System.Void Fermenter::Awake() with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Boolean ValheimPlus.ApplyFermenterChanges::Prefix(System.Single& ___m_fermentationDuration, Fermenter& __instance)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void Fermenter::Awake()
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching ItemConversion Fermenter::GetItemConversion(System.String itemName) with 0 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 postfixes:
+* static System.Void ValheimPlus.ApplyFermenterItemCountChanges::Postfix(ItemConversion& __result)
+
+[Info   :  HarmonyX] Running ILHook manipulator on ItemConversion Fermenter::GetItemConversion(System.String itemName)
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching System.Boolean Inventory::IsTeleportable() with 0 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 postfixes:
+* static System.Void ValheimPlus.noItemTeleportPrevention::Postfix(System.Boolean& __result)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Boolean Inventory::IsTeleportable()
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching System.Void ItemDrop::Awake() with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Void ValheimPlus.ChangeItemData::Prefix(ItemDrop& __instance)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void ItemDrop::Awake()
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching System.Void Player::OnSpawned() with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Void ValheimPlus.ModifyOnSpawned::Prefix()
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void Player::OnSpawned()
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching System.Single Player::GetMaxCarryWeight() with 0 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 postfixes:
+* static System.Void ValheimPlus.ModifyMaximumCarryWeight::Postfix(System.Single& __result)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Single Player::GetMaxCarryWeight()
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching System.Void Player::UpdateFood(System.Single dt, System.Boolean forceUpdate) with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Boolean ValheimPlus.ApplyFoodChanges::Prefix(Player& __instance, System.Single& dt, System.Boolean& forceUpdate)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void Player::UpdateFood(System.Single dt, System.Boolean forceUpdate)
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching System.Void Player::Update() with 0 prefixes, 2 postfixes, 0 transpilers, 0 finalizers
+2 postfixes:
+* static System.Void ValheimPlus.AdvancedEditingModeHook::Postfix(Player __instance)
+* static System.Void ValheimPlus.ApplyDodgeHotkeys::Postfix(Player& __instance, UnityEngine.Vector3& ___m_moveDir, UnityEngine.Vector3& ___m_lookDir, UnityEngine.GameObject& ___m_placementGhost, UnityEngine.Transform ___m_eye)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void Player::Update()
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching System.Void Game::Start() with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Void ValheimPlus.GameStartPatch::Prefix()
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void Game::Start()
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching System.Single Game::GetDifficultyDamageScale(UnityEngine.Vector3 pos) with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Boolean ValheimPlus.ChangeDifficultyScaleDamage::Prefix(Game& __instance, UnityEngine.Vector3& pos, System.Single& __result)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Single Game::GetDifficultyDamageScale(UnityEngine.Vector3 pos)
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching System.Single Game::GetDifficultyHealthScale(UnityEngine.Vector3 pos) with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Boolean ValheimPlus.ChangeDifficultyScaleHealth::Prefix(Game& __instance, UnityEngine.Vector3& pos, System.Single& __result)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Single Game::GetDifficultyHealthScale(UnityEngine.Vector3 pos)
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching System.Int32 Game::GetPlayerDifficulty(UnityEngine.Vector3 pos) with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Boolean ValheimPlus.ChangePlayerDifficultyCount::Prefix(Game& __instance, UnityEngine.Vector3& pos, System.Int32& __result)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Int32 Game::GetPlayerDifficulty(UnityEngine.Vector3 pos)
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching System.Void ZNet::Awake() with 0 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 postfixes:
+* static System.Void ValheimPlus.ChangeGameServerVariables::Postfix(ZNet& __instance)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void ZNet::Awake()
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching System.Void ZNet::RPC_PeerInfo(ZRpc rpc, ZPackage pkg) with 0 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 postfixes:
+* static System.Void ValheimPlus.ConfigServerSync::Postfix(ZNet& __instance)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void ZNet::RPC_PeerInfo(ZRpc rpc, ZPackage pkg)
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching System.Void ZNet::SetPublicReferencePosition(System.Boolean pub) with 0 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 postfixes:
+* static System.Void ValheimPlus.PreventPublicPositionToggle::Postfix(System.Boolean& pub, System.Boolean& ___m_publicReferencePosition)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void ZNet::SetPublicReferencePosition(System.Boolean pub)
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching static System.Void Steamworks.SteamGameServer::SetMaxPlayerCount(System.Int32 cPlayersMax) with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Void ValheimPlus.ChangeSteamServerVariables::Prefix(System.Int32& cPlayersMax)
+
+[Info   :  HarmonyX] Running ILHook manipulator on static System.Void Steamworks.SteamGameServer::SetMaxPlayerCount(System.Int32 cPlayersMax)
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching System.Int32 ZDOMan::SendZDOs(ZDOPeer peer, System.Boolean flush) with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Void ValheimPlus.ChangeDataRate::Prefix(ZDOMan& __instance, System.Int32& ___m_dataPerSec)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Int32 ZDOMan::SendZDOs(ZDOPeer peer, System.Boolean flush)
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching System.Void ZNet::Shutdown() with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Void ValheimPlus.OnErrorLoadOwnIni::Prefix(ZNet& __instance)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void ZNet::Shutdown()
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching System.Boolean FejdStartup::IsPublicPasswordValid(System.String password, World world) with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Boolean ValheimPlus.ChangeServerPasswordBehavior::Prefix(System.Boolean& __result)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Boolean FejdStartup::IsPublicPasswordValid(System.String password, World world)
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching System.String FejdStartup::GetPublicPasswordError(System.String password, World world) with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Boolean ValheimPlus.RemovePublicPasswordError::Prefix(System.String& __result)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.String FejdStartup::GetPublicPasswordError(System.String password, World world)
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching System.Void FejdStartup::Awake() with 0 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 postfixes:
+* static System.Void ValheimPlus.HookServerStart::Postfix(FejdStartup& __instance)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void FejdStartup::Awake()
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching System.Void Game::UpdateSaving(System.Single dt) with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Boolean ValheimPlus.ChangeClientAndServerSaveInterval::Prefix(Game& __instance, System.Single& dt)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void Game::UpdateSaving(System.Single dt)
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching System.Void Minimap::UpdateExplore(System.Single dt, Player player) with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Void ValheimPlus.ChangeMapBehavior::Prefix(System.Single& dt, Player& player, Minimap& __instance, System.Single& ___m_exploreTimer, System.Single& ___m_exploreInterval, System.Collections.Generic.List`1& ___m_tempPlayerInfo)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void Minimap::UpdateExplore(System.Single dt, Player player)
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching System.Void Smelter::Awake() with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Void ValheimPlus.ApplyFurnaceChanges::Prefix(Smelter& __instance)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void Smelter::Awake()
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching virtual System.Void Player::Awake() with 0 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 postfixes:
+* static System.Void ValheimPlus.ModifyPlayerValues::Postfix(Player __instance)
+
+[Info   :  HarmonyX] Running ILHook manipulator on virtual System.Void Player::Awake()
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching virtual System.Void Player::UseStamina(System.Single v) with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Void ValheimPlus.ChangeStaminaUsageOfToolsAndWeapons::Prefix(Player& __instance, System.Single& v)
+
+[Info   :  HarmonyX] Running ILHook manipulator on virtual System.Void Player::UseStamina(System.Single v)
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching System.Void Console::Awake() with 0 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 postfixes:
+* static System.Void ValheimPlus.HookConsole::Postfix(Console& __instance)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void Console::Awake()
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching System.Void FejdStartup::SetupGui() with 0 prefixes, 3 postfixes, 0 transpilers, 0 finalizers
+3 postfixes:
+* static System.Void QuickConnect.PatchUiInit::Postfix()
+* static System.Void ValheimPlus.PatchUI::Postfix()
+* static System.Void ValheimPlus.HookGui::Postfix(FejdStartup& __instance)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void FejdStartup::SetupGui()
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching static System.String Version::GetVersionString() with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Boolean ValheimPlus.VersionServerControl::Prefix(System.String& __result)
+
+[Info   :  HarmonyX] Running ILHook manipulator on static System.String Version::GetVersionString()
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching System.Void Vagon::UpdateMass() with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Boolean ValheimPlus.ModifyVagonMass::Prefix(Vagon& __instance)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void Vagon::UpdateMass()
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching System.Boolean WearNTear::HaveRoof() with 0 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 postfixes:
+* static System.Void ValheimPlus.RemoveWearNTear::Postfix(System.Boolean& __result)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Boolean WearNTear::HaveRoof()
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching System.Void WearNTear::GetMaterialProperties(System.Single& maxSupport, System.Single& minSupport, System.Single& horizontalLoss, System.Single& verticalLoss) with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Boolean ValheimPlus.RemoveStructualIntegrity::Prefix(WearNTear& __instance, System.Single& maxSupport, System.Single& minSupport, System.Single& horizontalLoss, System.Single& verticalLoss)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void WearNTear::GetMaterialProperties(System.Single& maxSupport, System.Single& minSupport, System.Single& horizontalLoss, System.Single& verticalLoss)
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching System.Void EnvMan::FixedUpdate() with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Void ValheimPlus.TimeUpdateHook::Prefix(EnvMan& __instance)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void EnvMan::FixedUpdate()
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching System.Void EnvMan::Awake() with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Void ValheimPlus.TimeInitHook::Prefix(EnvMan& __instance)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void EnvMan::Awake()
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching System.Void PrivateArea::Awake() with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Void ValheimPlus.ModifyWardRange::Prefix(PrivateArea& __instance)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void PrivateArea::Awake()
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching static System.Boolean InventoryGui::SetupRequirement(UnityEngine.Transform elementRoot, Requirement req, Player player, System.Boolean craft, System.Int32 quality) with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Boolean ValheimPlus.AddCurrentItemsAvailable::Prefix(UnityEngine.Transform elementRoot, Requirement req, Player player, System.Boolean craft, System.Int32 quality, System.Boolean& __result)
+
+[Info   :  HarmonyX] Running ILHook manipulator on static System.Boolean InventoryGui::SetupRequirement(UnityEngine.Transform elementRoot, Requirement req, Player player, System.Boolean craft, System.Int32 quality)
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching System.Void Skills::RaiseSkill(SkillType skillType, System.Single factor) with 1 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Void ValheimPlus.AddExpGainedDisplay::Prefix(Skills& __instance, SkillType& skillType, System.Single& factor)
+1 postfixes:
+* static System.Void ValheimPlus.AddExpGainedDisplay::Postfix(Skills __instance, SkillType skillType, System.Single factor)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void Skills::RaiseSkill(SkillType skillType, System.Single factor)
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Writing postfixes
+[Info   :  HarmonyX] Patching System.Void CraftingStation::Start() with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Void ValheimPlus.WorkbenchRangeIncrease::Prefix(System.Single& ___m_rangeBuild, UnityEngine.GameObject ___m_areaMarker)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void CraftingStation::Start()
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching System.Boolean CraftingStation::CheckUsable(Player player, System.Boolean showMessage) with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Boolean ValheimPlus.WorkbenchRemoveRestrictions::Prefix(CraftingStation& __instance, Player& player, System.Boolean& showMessage, System.Boolean& __result)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Boolean CraftingStation::CheckUsable(Player player, System.Boolean showMessage)
+[Info   :  HarmonyX] Writing prefixes
+[Info   :Valheim Plus] ValheimPlus [0.9] is up to date.
+[Info   :   BepInEx] Loading [invishelm 1.0.1]
+[Info   :  HarmonyX] ### Harmony id=Spuds.invishelm, version=2.3.0.0, location=E:\Steam\steamapps\common\Valheim\BepInEx\core\0Harmony.dll, env/clr=4.0.30319.42000, platform=Win32NT
+### Started from static System.Void HarmonyLib.Tools.Logger::Log(HarmonyLib.Tools.LogChannel channel, System.Func`1<System.String> message), location E:\Steam\steamapps\common\Valheim\BepInEx\core\0Harmony.dll
+### At 2021-03-02 01.00.49
+[Info   :  HarmonyX] Patching System.Boolean VisEquipment::SetHelmetEquiped(System.Int32 hash, System.Int32 hairHash) with 1 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Boolean invishelm.Patches::VisEquipment_SetHelmetEquiped(System.Int32 hash, System.Int32 hairHash)
+1 postfixes:
+* static System.Void CustomTextures.VisEquipment_SetHelmetEquiped_Patch::Postfix(System.Boolean __result, System.String ___m_helmetItem, UnityEngine.GameObject ___m_helmetItemInstance)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Boolean VisEquipment::SetHelmetEquiped(System.Int32 hash, System.Int32 hairHash)
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Writing postfixes
+[Message:   BepInEx] Chainloader startup complete
+03/02/2021 13:00:49: Starting to load scene:start
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 18.481200 ms
+Setting up 6 worker threads for Enlighten.
+  Thread -> id: 582c -> priority: 1 
+  Thread -> id: 9ac -> priority: 1 
+  Thread -> id: 60fc -> priority: 1 
+  Thread -> id: 5adc -> priority: 1 
+  Thread -> id: 15d8 -> priority: 1 
+  Thread -> id: 5664 -> priority: 1 
+Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu). 
+(Filename:  Line: 509)
+
+03/02/2021 13:00:59: Initializing world generator seed: ( 0 )   menu:True  worldgen version:1
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/02/2021 13:00:59: Using mountain distance: 1000
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Version generator started. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Version generated with enforced mod : 0.147.3 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/02/2021 13:00:59: Render threading mode:MultiThreaded
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Version generator started. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Version generated with enforced mod : 0.147.3 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/02/2021 13:00:59: Using environment steamid 892970
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/02/2021 13:00:59: Using steam APPID:892970
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/02/2021 13:01:00: Authentication:k_ESteamNetworkingAvailability_Attempting
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/02/2021 13:01:00: Steam initialized, persona:Lud0vicB
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/02/2021 13:01:00: Missing audio clip in music respawn
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/02/2021 13:01:00: Checking for installed DLCs
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/02/2021 13:01:00: DLC:beta installed:False
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/02/2021 13:01:00: Builder started
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Version generator started. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Version generated with enforced mod : 0.147.3 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/02/2021 13:01:00: Loaded localization English
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/02/2021 13:01:00: Loaded localization French
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[Info   :QuickConnect] Loaded 1 server entries
+03/02/2021 13:01:00: ARG 0 E:\Steam\steamapps\common\Valheim\valheim.exe
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/02/2021 13:01:00: ARG 1 -force-vulkan
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/02/2021 13:01:00: ARG 2 -force-vulkan
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+CustomTextures _Chest item: ArmorTrollLeatherChest 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+CustomTextures item ArmorTrollLeatherChest, texture name PlayerCharacter_01; use item_ArmorTrollLeatherChest_texture.png 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+CustomTextures _Legs item: ArmorTrollLeatherLegs 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+CustomTextures item ArmorTrollLeatherLegs, texture name PlayerCharacter_01; use item_ArmorTrollLeatherLegs_texture.png 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+InitializeOrResetSwapChain 2560x1080 hdr=0 samples=1
+InitializeOrResetSwapChain 2560x1080 hdr=0 samples=1
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 87881.
+Total: 69.459300 ms (FindLiveObjects: 5.020600 ms CreateObjectMapping: 6.736800 ms MarkObjects: 56.920300 ms  DeleteObjects: 0.781400 ms)
+
+03/02/2021 13:01:09: UI Group status changed Menu = True
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/02/2021 13:01:11: show character selection
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+CustomTextures _Chest item: ArmorTrollLeatherChest 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+CustomTextures item ArmorTrollLeatherChest, texture name PlayerCharacter_01; use item_ArmorTrollLeatherChest_texture.png 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+CustomTextures _Legs item: ArmorTrollLeatherLegs 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+CustomTextures item ArmorTrollLeatherLegs, texture name PlayerCharacter_01; use item_ArmorTrollLeatherLegs_texture.png 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/02/2021 13:02:29: Set hair 1
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/02/2021 13:02:30: Set hair 2
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/02/2021 13:02:30: Set hair 3
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/02/2021 13:02:31: Set hair 4
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+CustomTextures _Chest item: ArmorTrollLeatherChest 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+CustomTextures item ArmorTrollLeatherChest, texture name PlayerCharacter_01; use item_ArmorTrollLeatherChest_texture.png 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+CustomTextures _Legs item: ArmorTrollLeatherLegs 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+CustomTextures item ArmorTrollLeatherLegs, texture name PlayerCharacter_01; use item_ArmorTrollLeatherLegs_texture.png 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/02/2021 13:02:33: UI Group status changed SelectCharacter = True
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/02/2021 13:02:34: UI Group status changed Menu = True
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/02/2021 13:02:36: Steam manager on destroy
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ShipSpeed Destroying plugin 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[Info   :  HarmonyX] Patching System.Void ZNetScene::Awake() with 0 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void ZNetScene::Awake()
+[Info   :  HarmonyX] Patching System.Void VisEquipment::Awake() with 0 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void VisEquipment::Awake()
+[Info   :  HarmonyX] Patching System.Boolean VisEquipment::SetLeftHandEquiped(System.Int32 hash, System.Int32 variant) with 0 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Boolean VisEquipment::SetLeftHandEquiped(System.Int32 hash, System.Int32 variant)
+[Info   :  HarmonyX] Patching System.Boolean VisEquipment::SetRightHandEquiped(System.Int32 hash) with 0 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Boolean VisEquipment::SetRightHandEquiped(System.Int32 hash)
+[Info   :  HarmonyX] Patching System.Boolean VisEquipment::SetHelmetEquiped(System.Int32 hash, System.Int32 hairHash) with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+1 prefixes:
+* static System.Boolean invishelm.Patches::VisEquipment_SetHelmetEquiped(System.Int32 hash, System.Int32 hairHash)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Boolean VisEquipment::SetHelmetEquiped(System.Int32 hash, System.Int32 hairHash)
+[Info   :  HarmonyX] Writing prefixes
+[Info   :  HarmonyX] Patching System.Boolean VisEquipment::SetBackEquiped(System.Int32 leftItem, System.Int32 rightItem, System.Int32 leftVariant) with 0 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Boolean VisEquipment::SetBackEquiped(System.Int32 leftItem, System.Int32 rightItem, System.Int32 leftVariant)
+[Info   :  HarmonyX] Patching System.Boolean VisEquipment::SetShoulderEquiped(System.Int32 hash, System.Int32 variant) with 0 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Boolean VisEquipment::SetShoulderEquiped(System.Int32 hash, System.Int32 variant)
+[Info   :  HarmonyX] Patching System.Boolean VisEquipment::SetUtilityEquiped(System.Int32 hash) with 0 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Boolean VisEquipment::SetUtilityEquiped(System.Int32 hash)
+[Info   :  HarmonyX] Patching System.Boolean VisEquipment::SetLegEquiped(System.Int32 hash) with 0 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Boolean VisEquipment::SetLegEquiped(System.Int32 hash)
+[Info   :  HarmonyX] Patching System.Boolean VisEquipment::SetChestEquiped(System.Int32 hash) with 0 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Boolean VisEquipment::SetChestEquiped(System.Int32 hash)
+[Info   :  HarmonyX] Patching System.Void Ship::Awake() with 0 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void Ship::Awake()
+[Info   :  HarmonyX] Patching UnityEngine.Vector3 Ship::GetSailForce(System.Single sailSize, System.Single dt) with 0 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+
+[Info   :  HarmonyX] Running ILHook manipulator on UnityEngine.Vector3 Ship::GetSailForce(System.Single sailSize, System.Single dt)
+[Info   :  HarmonyX] Patching System.Single Ship::GetWindAngleFactor() with 0 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Single Ship::GetWindAngleFactor()
+[Info   :  HarmonyX] Patching System.Void Console::InputText() with 0 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void Console::InputText()
+[Info   :  HarmonyX] Patching System.Void ZNet::RPC_ClientHandshake(ZRpc rpc, System.Boolean needPassword) with 0 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void ZNet::RPC_ClientHandshake(ZRpc rpc, System.Boolean needPassword)
+[Info   :  HarmonyX] Patching System.Void ZSteamMatchmaking::OnJoinServerFailed() with 0 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void ZSteamMatchmaking::OnJoinServerFailed()
+[Info   :  HarmonyX] Patching System.Void FejdStartup::OnSelelectCharacterBack() with 0 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void FejdStartup::OnSelelectCharacterBack()
+[Info   :  HarmonyX] Patching System.Void FejdStartup::SetupGui() with 0 prefixes, 2 postfixes, 0 transpilers, 0 finalizers
+2 postfixes:
+* static System.Void ValheimPlus.PatchUI::Postfix()
+* static System.Void ValheimPlus.HookGui::Postfix(FejdStartup& __instance)
+
+[Info   :  HarmonyX] Running ILHook manipulator on System.Void FejdStartup::SetupGui()
+[Info   :  HarmonyX] Writing postfixes
+Vulkan PSO: data extracted [new size=4990817, old size=4990817, incomplete=0]
+Vulkan PSO: Pipeline cache has not changed skipping save handle[a3cdcd38]
