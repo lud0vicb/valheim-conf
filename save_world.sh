@@ -1,7 +1,8 @@
 #!/bin/bash
 set -x
-WORLD="/mnt/c/Users/lud0vicb/AppData/LocalLow/IronGate/Valheim"
-BACKUP="/home/bellierl/Documents/valheim/backup"
 
-[ -d $BACKUP ] || mkdir -p $BACKUP
-cp -R $WORLD $BACKUP/
+cp -R /mnt/c/Users/lud0vicb/AppData/LocalLow/IronGate/Valheim ./backup/
+
+git commit  -m "backup world $(date)" ./backup
+git push
+
