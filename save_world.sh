@@ -1,12 +1,10 @@
 #!/bin/bash
 
-cp -R /mnt/c/Users/lud0vicb/AppData/LocalLow/IronGate/Valheim ./backup/
-cd ./backup/
-tar zvcf Valheim.tgz Valheim
-rm -rf Valheim
-cd -
-git add -f ./backup
+cd /mnt/d/zBackup/valheim-backup/
+tar zvcf Valheim.tgz /mnt/c/Users/lud0vicb/AppData/LocalLow/IronGate/Valheim/
+git add .
 git status
-git commit  -m "backup world $(date)" ./backup
+git commit  -m "backup world $(date)" .
 git push
+cd -
 
