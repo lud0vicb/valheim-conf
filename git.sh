@@ -6,6 +6,7 @@ git add -f Valheim/BepInEx/plugins/
 git add -f Valheim/BepInEx/config/
 git add -f *.sh
 git add -f *.cfg
+git add -f *.cmd
 printf "\n-----------------------------------------------------------\nadd\n-----------------------------------------------------------\n\n"
 git status
 printf "\n-----------------------------------------------------------\npush\n-----------------------------------------------------------\n\n"
