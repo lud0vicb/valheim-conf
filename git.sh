@@ -14,4 +14,9 @@ git commit  -m "$(date)" .
 git push
 printf "\n-----------------------------------------------------------\npost\n-----------------------------------------------------------\n\n"
 git status
-
+printf "\n-----------------------------------------------------------\ntag\n-----------------------------------------------------------\n\n"
+git checkout cfg-dll
+git merge main
+git status
+git push origin HEAD:cfg-dll --force
+git checkout main
