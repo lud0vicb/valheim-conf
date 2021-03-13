@@ -1,5 +1,5 @@
 #!/bin/bash
-VER=9.3
+VER=9.5
 cp valheim_plus_$VER.cfg Valheim/BepInEx/config/valheim_plus.cfg
 rm Valheim\ dedicated\ server/BepInEx/config/*.cfg
 rm Valheim\ dedicated\ server/BepInEx/plugins/*.dll
