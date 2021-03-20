@@ -742,7 +742,7 @@
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_meadows",
-      "Drops": [ [0, 78], [1, 20], [2, 2] ],
+      "Drops": [ [0, 0], [1, 98], [2, 2] ],
       "Loot": [
         { "Item": "Tier0Everything", "Weight": 4, "Rarity": [ 97, 2, 1, 0 ] },
         { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 97, 2, 1, 0 ] }
