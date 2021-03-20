@@ -13,3 +13,5 @@ cp Valheim.SpawnThat.dll Valheim\ dedicated\ server/BepInEx/plugins/
 cp Valheim.SpawnThat.dll Valheim/BepInEx/plugins/
 cp spawn_that.world_spawners_advanced.cfg Valheim\ dedicated\ server/BepInEx/config/
 cp spawn_that.world_spawners_advanced.cfg Valheim/BepInEx/config/
+cp spawn_that.simple.cfg Valheim/BepInEx/config/
+cp spawn_that.simple.cfg Valheim\ dedicated\ server/BepInEx/config/
