@@ -27,7 +27,7 @@ cp spawn_that.simple.cfg Valheim\ dedicated\ server/BepInEx/config/
 # cp randyknapp.mods.epicloot.cfg Valheim\ dedicated\ server/BepInEx/config/
 
 # bettercontinent
-cp BetterContinents.dll Valheim\ dedicated\ server/BepInEx/plugins/
-cp BetterContinents.dll Valheim/BepInEx/plugins/
+# cp BetterContinents.dll Valheim\ dedicated\ server/BepInEx/plugins/
+# cp BetterContinents.dll Valheim/BepInEx/plugins/
 # cp BetterContinents.cfg Valheim\ dedicated\ server/BepInEx/config/
 # cp BetterContinents.cfg Valheim/BepInEx/config/
