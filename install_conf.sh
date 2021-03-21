@@ -16,4 +16,13 @@ cp spawn_that.world_spawners_advanced.cfg Valheim/BepInEx/config/
 cp spawn_that.simple.cfg Valheim/BepInEx/config/
 cp spawn_that.simple.cfg Valheim\ dedicated\ server/BepInEx/config/
 
+# loot epic
+# cp ExtendedItemDataFramework.dll Valheim/BepInEx/plugins/
+# cp ExtendedItemDataFramework.dll Valheim\ dedicated\ server/BepInEx/plugins/
+# rm -rf Valheim/BepInEx/plugins/EpicLoot/
+# rm -rf Valheim\ dedicated\ server/BepInEx/plugins/EpicLoot/
+# cp -R EpicLoot Valheim/BepInEx/plugins/
+# cp -R EpicLoot Valheim\ dedicated\ server/BepInEx/plugins/
+# cp randyknapp.mods.epicloot.cfg Valheim/BepInEx/config/
+# cp randyknapp.mods.epicloot.cfg Valheim\ dedicated\ server/BepInEx/config/
 
