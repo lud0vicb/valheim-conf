@@ -1,12 +1,13 @@
 #!/bin/bash
 set -x
 # conf plus client + server
-VER=9.5
+VER=9.6
 cp valheim_plus_$VER.cfg Valheim/BepInEx/config/valheim_plus.cfg
 cp valheim_plus_$VER.cfg Valheim\ dedicated\ server/BepInEx/config/valheim_plus.cfg
 
 # hack server pour data sent 60=>600
-cp assembly_valheim.dll Valheim\ dedicated\ server/valheim_server_Data/Managed
+# doit être recompilée pour la nouvelle version de valheim 
+#cp assembly_valheim.dll Valheim\ dedicated\ server/valheim_server_Data/Managed 
 
 # plugin swpawn that client + serveur / plugin + conf
 cp Valheim.SpawnThat.dll Valheim\ dedicated\ server/BepInEx/plugins/
