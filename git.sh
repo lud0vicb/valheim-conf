@@ -3,6 +3,7 @@
 printf "\n-----------------------------------------------------------\nadd\n-----------------------------------------------------------\n\n"
 git status
 git add -f Valheim/BepInEx/plugins/*.dll
+git add -f Valheim/BepInEx/plugins/*assets
 git add -f Valheim/BepInEx/plugins/EpicLoot
 git add -f Valheim/BepInEx/config/*.cfg
 git add -f *.sh
