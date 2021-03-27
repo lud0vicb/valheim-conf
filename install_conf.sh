@@ -2,20 +2,30 @@
 set -x
 # conf plus client + server
 VER=9.6
-cp valheim_plus_$VER.cfg Valheim/BepInEx/config/valheim_plus.cfg
-cp valheim_plus_$VER.cfg Valheim\ dedicated\ server/BepInEx/config/valheim_plus.cfg
+cp valheimplus/valheim_plus_$VER.cfg Valheim/BepInEx/config/valheim_plus.cfg
+cp valheimplus/valheim_plus_$VER.cfg Valheim\ dedicated\ server/BepInEx/config/valheim_plus.cfg
 
 # hack server pour data sent 60=>600
 # doit être recompilée pour la nouvelle version de valheim 
 #cp assembly_valheim.dll Valheim\ dedicated\ server/valheim_server_Data/Managed 
 
-# plugin swpawn that client + serveur / plugin + conf
-cp Valheim.SpawnThat.dll Valheim\ dedicated\ server/BepInEx/plugins/
-cp Valheim.SpawnThat.dll Valheim/BepInEx/plugins/
-cp spawn_that.world_spawners_advanced.cfg Valheim\ dedicated\ server/BepInEx/config/
-cp spawn_that.world_spawners_advanced.cfg Valheim/BepInEx/config/
-cp spawn_that.simple.cfg Valheim/BepInEx/config/
-cp spawn_that.simple.cfg Valheim\ dedicated\ server/BepInEx/config/
+# plugin spawn that client + serveur / plugin + conf
+## plugin
+cp spawnthat/Valheim.SpawnThat.dll Valheim\ dedicated\ server/BepInEx/plugins/
+cp spawnthat/Valheim.SpawnThat.dll Valheim/BepInEx/plugins/
+## config
+cp spawnthat/*.cfg Valheim/BepInEx/config/
+cp spawnthat/*.cfg Valheim\ dedicated\ server/BepInEx/config/
+
+# cuton raids
+## plugin
+cp customraids/Valheim.CustomRaids.dll Valheim\ dedicated\ server/BepInEx/plugins/
+cp customraids/Valheim.CustomRaids.dll Valheim/BepInEx/plugins/
+## config
+cp customraids/*.cfg Valheim/BepInEx/config/
+cp customraids/*.cfg Valheim\ dedicated\ server/BepInEx/config/
+
+
 
 # loot epic
 # cp ExtendedItemDataFramework.dll Valheim/BepInEx/plugins/

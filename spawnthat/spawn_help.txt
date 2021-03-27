@@ -1,0 +1,17 @@
+Biomes=Meadows,Swamp,Mountain,BlackForest,Plains,
+
+RequiredGlobalKey=defeated_bonemass		# swamp
+RequiredGlobalKey=defeated_goblinking	# plains
+RequiredGlobalKey=defeated_eikthyr		# meadows
+RequiredGlobalKey=defeated_gdking		# black forest
+RequiredGlobalKey=defeated_moder		# mountains
+
+RequiredEnvironments=Misty
+RequiredEnvironments=ThunderStormRain,
+
+
+https://valheim.fandom.com/wiki/Console_Commands
+
+env [env]- Sets debug environment.
+Variables: Clear, Twilight_Clear, Misty, Darklands_dark, Heath clear, DeepForest Mist, GDKing, Rain, LightRain, ThunderStorm, Eikthyr, GoblinKing, nofogts, SwampRain, Bonemass, Snow, Twilight_Snow, Twilight_SnowStorm, SnowStorm, Moder, Ashrain, Crypt, SunkenCrypt.
+
