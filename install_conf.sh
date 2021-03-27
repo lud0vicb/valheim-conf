@@ -25,7 +25,13 @@ cp customraids/Valheim.CustomRaids.dll Valheim/BepInEx/plugins/
 cp customraids/*.cfg Valheim/BepInEx/config/
 cp customraids/*.cfg Valheim\ dedicated\ server/BepInEx/config/
 
-
+# dropthat
+## plugin
+cp dropthat/Valheim.DropThat.dll Valheim\ dedicated\ server/BepInEx/plugins/
+cp dropthat/Valheim.DropThat.dll Valheim/BepInEx/plugins/
+## config
+cp dropthat/*.cfg Valheim/BepInEx/config/
+cp dropthat/*.cfg Valheim\ dedicated\ server/BepInEx/config/
 
 # loot epic
 # cp ExtendedItemDataFramework.dll Valheim/BepInEx/plugins/
