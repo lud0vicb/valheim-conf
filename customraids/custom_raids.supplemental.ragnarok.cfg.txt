@@ -1,9 +1,9 @@
-﻿[gobelin_solitaire]
+﻿[Ragnarok]
 
 ## Enable/disable raid configuration from being used.
 # Setting type: Boolean
 # Default value: true
-Enabled = true
+Enabled = false
 
 ## Sets whether event is random or not. Eg. boss fights are events, but not random.
 # Setting type: Boolean
@@ -24,17 +24,17 @@ Duration = 300
 ## Raid start message
 # Setting type: String
 # Default value: Raid start
-StartMessage = un gobelin géant a été aperçu
+StartMessage = Ragnarök has come! The endtimes have begun
 
 ## Raid end message
 # Setting type: String
 # Default value: Raid done
-EndMessage = le géant a disparu
+EndMessage = The war has settled... for a while
 
 ## Raid name. Does not seem to hold any significant importance apart from being a unique identifier.
 # Setting type: String
 # Default value: Deer Army
-Name = invasion_sq
+Name = Ragnarok
 
 ## Spawn raid near base only. Looks like this one might need to always be true due to the games valid spawn logic.
 # Setting type: Boolean
@@ -58,14 +58,14 @@ PauseIfNoPlayerInArea = true
 ## Environmental effect to set for raid.
 # Setting type: String
 # Default value: 
-ForceEnvironment = DeepForest Mist
+ForceEnvironment = ThunderStorm
 
 ## Music to play for raid.
 # Setting type: String
 # Default value: CombatEventL1
 ForceMusic = CombatEventL2
 
-[gobelin_solitaire.0]
+[Ragnarok.0]
 
 # Setting type: Boolean
 # Default value: true
@@ -74,12 +74,12 @@ Enabled = true
 ## Spawn configuration name.
 # Setting type: String
 # Default value: DeerALot
-Name = gobelin élite
+Name = Eikthyr
 
 ## Prefab name of entity to spawn. This... might actually allow for anything.
 # Setting type: String
 # Default value: Deer
-PrefabName = GoblinBrute
+PrefabName = Eikthyr
 
 ## Maximum alive at a time.
 # Setting type: Int32
@@ -98,15 +98,15 @@ SpawnChancePerInterval = 100
 
 # Setting type: Single
 # Default value: 1
-SpawnDistance = 1
+SpawnDistance = 0
 
 # Setting type: Single
 # Default value: 1
-SpawnRadiusMin = 1
+SpawnRadiusMin = 0
 
 # Setting type: Single
 # Default value: 10
-SpawnRadiusMax = 100
+SpawnRadiusMax = 1
 
 ## Global key required for spawning. Leave empty for no requirement.
 # Setting type: String
@@ -194,74 +194,7 @@ MaxLevel = 1
 # Default value: 0.5
 GroundOffset = 0.5
 
-[golem_solitaire]
-
-## Enable/disable raid configuration from being used.
-# Setting type: Boolean
-# Default value: true
-Enabled = true
-
-## Sets whether event is random or not. Eg. boss fights are events, but not random.
-# Setting type: Boolean
-# Default value: true
-Random = true
-
-## Array (separate by ",") of biomes required to allow spawn.
-## Leave empty for all
-# Setting type: String
-# Default value: 
-Biomes = 
-
-## Duration of raid? Unsure of the exact measure used here.
-# Setting type: Single
-# Default value: 60
-Duration = 300
-
-## Raid start message
-# Setting type: String
-# Default value: Raid start
-StartMessage = une tempête de neige cache quelquechose
-
-## Raid end message
-# Setting type: String
-# Default value: Raid done
-EndMessage = la tempête est finie
-
-## Raid name. Does not seem to hold any significant importance apart from being a unique identifier.
-# Setting type: String
-# Default value: Deer Army
-Name = invasion_sq
-
-## Spawn raid near base only. Looks like this one might need to always be true due to the games valid spawn logic.
-# Setting type: Boolean
-# Default value: true
-NearBaseOnly = true
-
-## Array (separate by "," of required global keys. Leave empty for no requirement.
-# Setting type: String
-# Default value: 
-NotRequiredGlobalKeys = 
-
-## Array (separate by "," of required global keys. Leave empty for no requirement.
-# Setting type: String
-# Default value: 
-RequiredGlobalKeys = defeated_dragon
-
-# Setting type: Boolean
-# Default value: true
-PauseIfNoPlayerInArea = true
-
-## Environmental effect to set for raid.
-# Setting type: String
-# Default value: 
-ForceEnvironment = SnowStorm
-
-## Music to play for raid.
-# Setting type: String
-# Default value: CombatEventL1
-ForceMusic = CombatEventL2
-
-[golem_solitaire.0]
+[Ragnarok.1]
 
 # Setting type: Boolean
 # Default value: true
@@ -270,12 +203,12 @@ Enabled = true
 ## Spawn configuration name.
 # Setting type: String
 # Default value: DeerALot
-Name = golem de pierre
+Name = Bonemass
 
 ## Prefab name of entity to spawn. This... might actually allow for anything.
 # Setting type: String
 # Default value: Deer
-PrefabName = StoneGolem
+PrefabName = Bonemass
 
 ## Maximum alive at a time.
 # Setting type: Int32
@@ -294,15 +227,15 @@ SpawnChancePerInterval = 100
 
 # Setting type: Single
 # Default value: 1
-SpawnDistance = 1
+SpawnDistance = 0
 
 # Setting type: Single
 # Default value: 1
-SpawnRadiusMin = 1
+SpawnRadiusMin = 0
 
 # Setting type: Single
 # Default value: 10
-SpawnRadiusMax = 100
+SpawnRadiusMax = 1
 
 ## Global key required for spawning. Leave empty for no requirement.
 # Setting type: String
@@ -390,74 +323,7 @@ MaxLevel = 1
 # Default value: 0.5
 GroundOffset = 0.5
 
-[invasion_fantome]
-
-## Enable/disable raid configuration from being used.
-# Setting type: Boolean
-# Default value: true
-Enabled = true
-
-## Sets whether event is random or not. Eg. boss fights are events, but not random.
-# Setting type: Boolean
-# Default value: true
-Random = true
-
-## Array (separate by ",") of biomes required to allow spawn.
-## Leave empty for all
-# Setting type: String
-# Default value: 
-Biomes = 
-
-## Duration of raid? Unsure of the exact measure used here.
-# Setting type: Single
-# Default value: 60
-Duration = 300
-
-## Raid start message
-# Setting type: String
-# Default value: Raid start
-StartMessage = La nuit des fantome a commencée
-
-## Raid end message
-# Setting type: String
-# Default value: Raid done
-EndMessage = voilà l\'aube
-
-## Raid name. Does not seem to hold any significant importance apart from being a unique identifier.
-# Setting type: String
-# Default value: Deer Army
-Name = invasion_fantome
-
-## Spawn raid near base only. Looks like this one might need to always be true due to the games valid spawn logic.
-# Setting type: Boolean
-# Default value: true
-NearBaseOnly = true
-
-## Array (separate by "," of required global keys. Leave empty for no requirement.
-# Setting type: String
-# Default value: 
-NotRequiredGlobalKeys = 
-
-## Array (separate by "," of required global keys. Leave empty for no requirement.
-# Setting type: String
-# Default value: 
-RequiredGlobalKeys = 
-
-# Setting type: Boolean
-# Default value: true
-PauseIfNoPlayerInArea = true
-
-## Environmental effect to set for raid.
-# Setting type: String
-# Default value: 
-ForceEnvironment = Crypt
-
-## Music to play for raid.
-# Setting type: String
-# Default value: CombatEventL1
-ForceMusic = CombatEventL2
-
-[invasion_fantome.0]
+[Ragnarok.2]
 
 # Setting type: Boolean
 # Default value: true
@@ -466,22 +332,22 @@ Enabled = true
 ## Spawn configuration name.
 # Setting type: String
 # Default value: DeerALot
-Name = fantome
+Name = Dragon
 
 ## Prefab name of entity to spawn. This... might actually allow for anything.
 # Setting type: String
 # Default value: Deer
-PrefabName = Ghost
+PrefabName = Dragon
 
 ## Maximum alive at a time.
 # Setting type: Int32
 # Default value: 2
-MaxSpawned = 2
+MaxSpawned = 1
 
 ## Interval (seconds) between wave checks.
 # Setting type: Single
 # Default value: 1
-SpawnInterval = 30
+SpawnInterval = 1
 
 ## Chance (0 to 100) to spawn new wave per check.
 # Setting type: Single
@@ -490,15 +356,15 @@ SpawnChancePerInterval = 100
 
 # Setting type: Single
 # Default value: 1
-SpawnDistance = 1
+SpawnDistance = 0
 
 # Setting type: Single
 # Default value: 1
-SpawnRadiusMin = 1
+SpawnRadiusMin = 0
 
 # Setting type: Single
 # Default value: 10
-SpawnRadiusMax = 100
+SpawnRadiusMax = 1
 
 ## Global key required for spawning. Leave empty for no requirement.
 # Setting type: String
@@ -522,7 +388,7 @@ GroupSizeMin = 1
 ## Maximum amount of spawns per wave.
 # Setting type: Int32
 # Default value: 1
-GroupSizeMax = 2
+GroupSizeMax = 1
 
 ## Can spawn at night.
 # Setting type: Boolean
@@ -586,74 +452,7 @@ MaxLevel = 1
 # Default value: 0.5
 GroundOffset = 0.5
 
-[invasion_lg]
-
-## Enable/disable raid configuration from being used.
-# Setting type: Boolean
-# Default value: true
-Enabled = true
-
-## Sets whether event is random or not. Eg. boss fights are events, but not random.
-# Setting type: Boolean
-# Default value: true
-Random = true
-
-## Array (separate by ",") of biomes required to allow spawn.
-## Leave empty for all
-# Setting type: String
-# Default value: 
-Biomes = 
-
-## Duration of raid? Unsure of the exact measure used here.
-# Setting type: Single
-# Default value: 60
-Duration = 300
-
-## Raid start message
-# Setting type: String
-# Default value: Raid start
-StartMessage = La nuit des loups-garou
-
-## Raid end message
-# Setting type: String
-# Default value: Raid done
-EndMessage = voilà l\'aube
-
-## Raid name. Does not seem to hold any significant importance apart from being a unique identifier.
-# Setting type: String
-# Default value: Deer Army
-Name = invasion_lg
-
-## Spawn raid near base only. Looks like this one might need to always be true due to the games valid spawn logic.
-# Setting type: Boolean
-# Default value: true
-NearBaseOnly = true
-
-## Array (separate by "," of required global keys. Leave empty for no requirement.
-# Setting type: String
-# Default value: 
-NotRequiredGlobalKeys = 
-
-## Array (separate by "," of required global keys. Leave empty for no requirement.
-# Setting type: String
-# Default value: 
-RequiredGlobalKeys = 
-
-# Setting type: Boolean
-# Default value: true
-PauseIfNoPlayerInArea = true
-
-## Environmental effect to set for raid.
-# Setting type: String
-# Default value: 
-ForceEnvironment = SwampRain
-
-## Music to play for raid.
-# Setting type: String
-# Default value: CombatEventL1
-ForceMusic = CombatEventL2
-
-[invasion_lg.0]
+[Ragnarok.3]
 
 # Setting type: Boolean
 # Default value: true
@@ -662,22 +461,22 @@ Enabled = true
 ## Spawn configuration name.
 # Setting type: String
 # Default value: DeerALot
-Name = loup garou
+Name = gd_king
 
 ## Prefab name of entity to spawn. This... might actually allow for anything.
 # Setting type: String
 # Default value: Deer
-PrefabName = Fenring
+PrefabName = gd_king
 
 ## Maximum alive at a time.
 # Setting type: Int32
 # Default value: 2
-MaxSpawned = 3
+MaxSpawned = 1
 
 ## Interval (seconds) between wave checks.
 # Setting type: Single
 # Default value: 1
-SpawnInterval = 30
+SpawnInterval = 1
 
 ## Chance (0 to 100) to spawn new wave per check.
 # Setting type: Single
@@ -686,15 +485,15 @@ SpawnChancePerInterval = 100
 
 # Setting type: Single
 # Default value: 1
-SpawnDistance = 1
+SpawnDistance = 0
 
 # Setting type: Single
 # Default value: 1
-SpawnRadiusMin = 1
+SpawnRadiusMin = 0
 
 # Setting type: Single
 # Default value: 10
-SpawnRadiusMax = 100
+SpawnRadiusMax = 1
 
 ## Global key required for spawning. Leave empty for no requirement.
 # Setting type: String
@@ -718,7 +517,7 @@ GroupSizeMin = 1
 ## Maximum amount of spawns per wave.
 # Setting type: Int32
 # Default value: 1
-GroupSizeMax = 3
+GroupSizeMax = 1
 
 ## Can spawn at night.
 # Setting type: Boolean
@@ -782,74 +581,7 @@ MaxLevel = 1
 # Default value: 0.5
 GroundOffset = 0.5
 
-[invasion_sq]
-
-## Enable/disable raid configuration from being used.
-# Setting type: Boolean
-# Default value: true
-Enabled = true
-
-## Sets whether event is random or not. Eg. boss fights are events, but not random.
-# Setting type: Boolean
-# Default value: true
-Random = true
-
-## Array (separate by ",") of biomes required to allow spawn.
-## Leave empty for all
-# Setting type: String
-# Default value: 
-Biomes = 
-
-## Duration of raid? Unsure of the exact measure used here.
-# Setting type: Single
-# Default value: 60
-Duration = 300
-
-## Raid start message
-# Setting type: String
-# Default value: Raid start
-StartMessage = Invasion de squelettes
-
-## Raid end message
-# Setting type: String
-# Default value: Raid done
-EndMessage = l\'invasion a été repoussée
-
-## Raid name. Does not seem to hold any significant importance apart from being a unique identifier.
-# Setting type: String
-# Default value: Deer Army
-Name = invasion_sq
-
-## Spawn raid near base only. Looks like this one might need to always be true due to the games valid spawn logic.
-# Setting type: Boolean
-# Default value: true
-NearBaseOnly = true
-
-## Array (separate by "," of required global keys. Leave empty for no requirement.
-# Setting type: String
-# Default value: 
-NotRequiredGlobalKeys = 
-
-## Array (separate by "," of required global keys. Leave empty for no requirement.
-# Setting type: String
-# Default value: 
-RequiredGlobalKeys = defeated_eikthyr
-
-# Setting type: Boolean
-# Default value: true
-PauseIfNoPlayerInArea = true
-
-## Environmental effect to set for raid.
-# Setting type: String
-# Default value: 
-ForceEnvironment = SunkenCrypt
-
-## Music to play for raid.
-# Setting type: String
-# Default value: CombatEventL1
-ForceMusic = CombatEventL2
-
-[invasion_sq.0]
+[Ragnarok.4]
 
 # Setting type: Boolean
 # Default value: true
@@ -858,7 +590,138 @@ Enabled = true
 ## Spawn configuration name.
 # Setting type: String
 # Default value: DeerALot
-Name = squelettes
+Name = Draugr Troopers
+
+## Prefab name of entity to spawn. This... might actually allow for anything.
+# Setting type: String
+# Default value: Deer
+PrefabName = Draugr
+
+## Maximum alive at a time.
+# Setting type: Int32
+# Default value: 2
+MaxSpawned = 30
+
+## Interval (seconds) between wave checks.
+# Setting type: Single
+# Default value: 1
+SpawnInterval = 1
+
+## Chance (0 to 100) to spawn new wave per check.
+# Setting type: Single
+# Default value: 100
+SpawnChancePerInterval = 100
+
+# Setting type: Single
+# Default value: 1
+SpawnDistance = 0
+
+# Setting type: Single
+# Default value: 1
+SpawnRadiusMin = 0
+
+# Setting type: Single
+# Default value: 10
+SpawnRadiusMax = 10
+
+## Global key required for spawning. Leave empty for no requirement.
+# Setting type: String
+# Default value: 
+RequiredGlobalKey = 
+
+## Array (separate by "," of required environments. Leave empty for no requirement.
+# Setting type: String
+# Default value: 
+RequiredEnvironments = 
+
+# Setting type: Single
+# Default value: 1
+GroupRadius = 1
+
+## Minimum amount of spawns per wave.
+# Setting type: Int32
+# Default value: 1
+GroupSizeMin = 5
+
+## Maximum amount of spawns per wave.
+# Setting type: Int32
+# Default value: 1
+GroupSizeMax = 5
+
+## Can spawn at night.
+# Setting type: Boolean
+# Default value: true
+SpawnAtNight = true
+
+## Can spawn at day
+# Setting type: Boolean
+# Default value: true
+SpawnAtDay = true
+
+# Setting type: Single
+# Default value: -1000
+AltitudeMin = -1000
+
+# Setting type: Single
+# Default value: 1000
+AltitudeMax = 1000
+
+# Setting type: Single
+# Default value: 0
+TerrainTiltMin = 0
+
+# Setting type: Single
+# Default value: 35
+TerrainTiltMax = 35
+
+# Setting type: Boolean
+# Default value: true
+InForest = true
+
+# Setting type: Boolean
+# Default value: true
+OutsideForest = true
+
+# Setting type: Single
+# Default value: 0
+OceanDepthMin = 0
+
+# Setting type: Single
+# Default value: 0
+OceanDepthMax = 0
+
+## Does what it says. Will not work for all mobs, Deer will ignore it.
+# Setting type: Boolean
+# Default value: true
+HuntPlayer = true
+
+## Min level of spawn. Range 1 to 3 (3 is two stars).
+# Setting type: Int32
+# Default value: 1
+MinLevel = 1
+
+## Max level of spawn. Range 1 to 3 (3 is two stars).
+# Setting type: Int32
+# Default value: 3
+MaxLevel = 1
+
+## Distance to ground on spawn.
+# Setting type: Single
+# Default value: 0.5
+GroundOffset = 0.5
+
+GroupSizeRadius = 2
+
+[Ragnarok.5]
+
+# Setting type: Boolean
+# Default value: true
+Enabled = true
+
+## Spawn configuration name.
+# Setting type: String
+# Default value: DeerALot
+Name = Skelly Troopers
 
 ## Prefab name of entity to spawn. This... might actually allow for anything.
 # Setting type: String
@@ -868,7 +731,7 @@ PrefabName = Skeleton
 ## Maximum alive at a time.
 # Setting type: Int32
 # Default value: 2
-MaxSpawned = 10
+MaxSpawned = 30
 
 ## Interval (seconds) between wave checks.
 # Setting type: Single
@@ -882,15 +745,15 @@ SpawnChancePerInterval = 100
 
 # Setting type: Single
 # Default value: 1
-SpawnDistance = 1
+SpawnDistance = 0
 
 # Setting type: Single
 # Default value: 1
-SpawnRadiusMin = 1
+SpawnRadiusMin = 0
 
 # Setting type: Single
 # Default value: 10
-SpawnRadiusMax = 100
+SpawnRadiusMax = 10
 
 ## Global key required for spawning. Leave empty for no requirement.
 # Setting type: String
@@ -909,12 +772,272 @@ GroupRadius = 1
 ## Minimum amount of spawns per wave.
 # Setting type: Int32
 # Default value: 1
-GroupSizeMin = 10
+GroupSizeMin = 5
 
 ## Maximum amount of spawns per wave.
 # Setting type: Int32
 # Default value: 1
-GroupSizeMax = 10
+GroupSizeMax = 5
+
+## Can spawn at night.
+# Setting type: Boolean
+# Default value: true
+SpawnAtNight = true
+
+## Can spawn at day
+# Setting type: Boolean
+# Default value: true
+SpawnAtDay = true
+
+# Setting type: Single
+# Default value: -1000
+AltitudeMin = -1000
+
+# Setting type: Single
+# Default value: 1000
+AltitudeMax = 1000
+
+# Setting type: Single
+# Default value: 0
+TerrainTiltMin = 0
+
+# Setting type: Single
+# Default value: 35
+TerrainTiltMax = 35
+
+# Setting type: Boolean
+# Default value: true
+InForest = true
+
+# Setting type: Boolean
+# Default value: true
+OutsideForest = true
+
+# Setting type: Single
+# Default value: 0
+OceanDepthMin = 0
+
+# Setting type: Single
+# Default value: 0
+OceanDepthMax = 0
+
+## Does what it says. Will not work for all mobs, Deer will ignore it.
+# Setting type: Boolean
+# Default value: true
+HuntPlayer = true
+
+## Min level of spawn. Range 1 to 3 (3 is two stars).
+# Setting type: Int32
+# Default value: 1
+MinLevel = 1
+
+## Max level of spawn. Range 1 to 3 (3 is two stars).
+# Setting type: Int32
+# Default value: 3
+MaxLevel = 1
+
+## Distance to ground on spawn.
+# Setting type: Single
+# Default value: 0.5
+GroundOffset = 0.5
+
+GroupSizeRadius = 2
+
+[Ragnarok.6]
+
+# Setting type: Boolean
+# Default value: true
+Enabled = true
+
+## Spawn configuration name.
+# Setting type: String
+# Default value: DeerALot
+Name = Fenring
+
+## Prefab name of entity to spawn. This... might actually allow for anything.
+# Setting type: String
+# Default value: Deer
+PrefabName = Fenring
+
+## Maximum alive at a time.
+# Setting type: Int32
+# Default value: 2
+MaxSpawned = 1
+
+## Interval (seconds) between wave checks.
+# Setting type: Single
+# Default value: 1
+SpawnInterval = 1
+
+## Chance (0 to 100) to spawn new wave per check.
+# Setting type: Single
+# Default value: 100
+SpawnChancePerInterval = 100
+
+# Setting type: Single
+# Default value: 1
+SpawnDistance = 0
+
+# Setting type: Single
+# Default value: 1
+SpawnRadiusMin = 0
+
+# Setting type: Single
+# Default value: 10
+SpawnRadiusMax = 1
+
+## Global key required for spawning. Leave empty for no requirement.
+# Setting type: String
+# Default value: 
+RequiredGlobalKey = 
+
+## Array (separate by "," of required environments. Leave empty for no requirement.
+# Setting type: String
+# Default value: 
+RequiredEnvironments = 
+
+# Setting type: Single
+# Default value: 1
+GroupRadius = 1
+
+## Minimum amount of spawns per wave.
+# Setting type: Int32
+# Default value: 1
+GroupSizeMin = 1
+
+## Maximum amount of spawns per wave.
+# Setting type: Int32
+# Default value: 1
+GroupSizeMax = 1
+
+## Can spawn at night.
+# Setting type: Boolean
+# Default value: true
+SpawnAtNight = true
+
+## Can spawn at day
+# Setting type: Boolean
+# Default value: true
+SpawnAtDay = true
+
+# Setting type: Single
+# Default value: -1000
+AltitudeMin = -1000
+
+# Setting type: Single
+# Default value: 1000
+AltitudeMax = 1000
+
+# Setting type: Single
+# Default value: 0
+TerrainTiltMin = 0
+
+# Setting type: Single
+# Default value: 35
+TerrainTiltMax = 35
+
+# Setting type: Boolean
+# Default value: true
+InForest = true
+
+# Setting type: Boolean
+# Default value: true
+OutsideForest = true
+
+# Setting type: Single
+# Default value: 0
+OceanDepthMin = 0
+
+# Setting type: Single
+# Default value: 0
+OceanDepthMax = 0
+
+## Does what it says. Will not work for all mobs, Deer will ignore it.
+# Setting type: Boolean
+# Default value: true
+HuntPlayer = true
+
+## Min level of spawn. Range 1 to 3 (3 is two stars).
+# Setting type: Int32
+# Default value: 1
+MinLevel = 1
+
+## Max level of spawn. Range 1 to 3 (3 is two stars).
+# Setting type: Int32
+# Default value: 3
+MaxLevel = 1
+
+## Distance to ground on spawn.
+# Setting type: Single
+# Default value: 0.5
+GroundOffset = 0.5
+
+[Ragnarok.7]
+
+# Setting type: Boolean
+# Default value: true
+Enabled = true
+
+## Spawn configuration name.
+# Setting type: String
+# Default value: DeerALot
+Name = Yagluth
+
+## Prefab name of entity to spawn. This... might actually allow for anything.
+# Setting type: String
+# Default value: Deer
+PrefabName = GoblinKing
+
+## Maximum alive at a time.
+# Setting type: Int32
+# Default value: 2
+MaxSpawned = 1
+
+## Interval (seconds) between wave checks.
+# Setting type: Single
+# Default value: 1
+SpawnInterval = 1
+
+## Chance (0 to 100) to spawn new wave per check.
+# Setting type: Single
+# Default value: 100
+SpawnChancePerInterval = 100
+
+# Setting type: Single
+# Default value: 1
+SpawnDistance = 0
+
+# Setting type: Single
+# Default value: 1
+SpawnRadiusMin = 0
+
+# Setting type: Single
+# Default value: 10
+SpawnRadiusMax = 1
+
+## Global key required for spawning. Leave empty for no requirement.
+# Setting type: String
+# Default value: 
+RequiredGlobalKey = 
+
+## Array (separate by "," of required environments. Leave empty for no requirement.
+# Setting type: String
+# Default value: 
+RequiredEnvironments = 
+
+# Setting type: Single
+# Default value: 1
+GroupRadius = 1
+
+## Minimum amount of spawns per wave.
+# Setting type: Int32
+# Default value: 1
+GroupSizeMin = 1
+
+## Maximum amount of spawns per wave.
+# Setting type: Int32
+# Default value: 1
+GroupSizeMax = 1
 
 ## Can spawn at night.
 # Setting type: Boolean
