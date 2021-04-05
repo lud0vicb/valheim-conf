@@ -1,7 +1,7 @@
 #!/bin/bash
 set -x
 # conf plus client + server
-VER=9.6
+VER=9.7
 cp valheimplus/valheim_plus_$VER.cfg Valheim/BepInEx/config/valheim_plus.cfg
 cp valheimplus/valheim_plus_$VER.cfg Valheim\ dedicated\ server/BepInEx/config/valheim_plus.cfg
 
