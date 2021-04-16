@@ -7,8 +7,8 @@ printf "\n-----------------------------------------------------------\npush\n---
 git commit  -m "$(date)" .
 git push
 printf "\n-----------------------------------------------------------\ntag\n-----------------------------------------------------------\n\n"
-git checkout cfg-dll
+git checkout glorom
 git merge main
 git status
-git push origin HEAD:cfg-dll --force
+git push origin HEAD:glorom --force
 git checkout main
