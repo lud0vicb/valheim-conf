@@ -3,33 +3,43 @@
     {
       "Type" : "DvergerCirclet",
       "DisplayText" : "Perpetual lightsource",
+      "CanBeAugmented": false, 
       "Requirements" : {
         "NoRoll": true
       },
-      "SelectionWeight" : 1,
       "Comment" : "Can't be rolled. Just added to make a Magic Item version of this item."
     },
     {
       "Type" : "Megingjord",
       "DisplayText" : "Carry weight increased by +150",
+      "CanBeAugmented": false, 
       "Requirements" : {
         "NoRoll": true
       },
-      "SelectionWeight" : 1,
       "Comment" : "Can't be rolled. Just added to make a Magic Item version of this item."
     },
     {
       "Type" : "Wishbone",
       "DisplayText" : "Finds secrets",
+      "CanBeAugmented": false, 
       "Requirements" : {
         "NoRoll": true
       },
-      "SelectionWeight" : 1,
+      "Comment" : "Can't be rolled. Just added to make a Magic Item version of this item."
+    },
+    {
+      "Type": "Andvaranaut",
+      "DisplayText": "Finds Haldor's treasure chests",
+      "CanBeAugmented": false, 
+      "Requirements" : {
+        "NoRoll": true
+      },
       "Comment" : "Can't be rolled. Just added to make a Magic Item version of this item."
     },
     {
       "Type" : "ModifyDamage",
       "DisplayText" : "All damage increased by +{0:0.#}%",
+      "CanBeAugmented": false, 
       "Requirements" : {
         "NoRoll": true
       },
@@ -65,7 +75,9 @@
         "Epic" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
         "Legendary" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 }
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Strong", "Powerful", "Mighty", "Heavy", "Forceful", "Wicked", "Fighter's", "Warrior" ],
+      "Suffixes": [ "Strength", "Power", "Might", "Force", "the Warrior" ]
     },
     {
       "Type" : "ModifyElementalDamage",
@@ -82,6 +94,9 @@
           "Bow",
           "Torch"
         ],
+        "ExcludedSkillTypes": [
+          "Pickaxes"
+        ],
         "ItemHasElementalDamage" : true
       },
       "ValuesPerRarity" : {
@@ -90,7 +105,9 @@
         "Epic" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
         "Legendary" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 }
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Energized", "Empowered", "Charged", "Intensified" ],
+      "Suffixes": [ "Energy", "Intensity", "Brilliance" ]
     },
     {
       "Type" : "ModifyDurability",
@@ -123,7 +140,9 @@
         "Rare" : { "MinValue" : 50, "MaxValue" : 100, "Increment" : 5 },
         "Epic" : { "MinValue" : 50, "MaxValue" : 100, "Increment" : 5 }
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Sturdy", "Stout", "Robust" ],
+      "Suffixes": [ "Sturdiness", "Robustness", "Stability", "the Ox" ]
     },
     {
       "Type" : "ReduceWeight",
@@ -155,7 +174,9 @@
         "Rare" : { "MinValue" : 70, "MaxValue" : 90, "Increment" : 5 },
         "Epic" : { "MinValue" : 70, "MaxValue" : 90, "Increment" : 5 }
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Light", "Slender" ],
+      "Suffixes": [ "the Feather" ]
     },
     {
       "Type" : "RemoveSpeedPenalty",
@@ -178,13 +199,9 @@
         ],
         "ItemHasNegativeMovementSpeedModifier" : true
       },
-      "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 1, "MaxValue" : 0, "Increment" : 0 },
-        "Rare" : { "MinValue" : 1, "MaxValue" : 0, "Increment" : 0 },
-        "Epic" : { "MinValue" : 1, "MaxValue" : 0, "Increment" : 0 },
-        "Legendary" : { "MinValue" : 1, "MaxValue" : 0, "Increment" : 0 }
-      },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Agile", "Easy", "Graceful" ],
+      "Suffixes": [ "Agility", "Grace" ]
     },
     {
       "Type" : "ModifyBlockPower",
@@ -192,6 +209,9 @@
       "Requirements" : {
         "AllowedItemTypes" : [
           "Shield"
+        ],
+        "ExcludedSkillTypes": [
+          "Pickaxes"
         ],
         "ItemHasBlockPower" : true
       },
@@ -201,7 +221,9 @@
         "Epic" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
         "Legendary" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 }
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Stopping", "Defender's" ],
+      "Suffixes": [ "Stopping", "the Defender" ]
     },
     {
       "Type" : "ModifyParry",
@@ -211,6 +233,9 @@
           "Shield",
           "TwoHandedWeapon"
         ],
+        "ExcludedSkillTypes": [
+          "Pickaxes"
+        ],
         "ItemHasParryPower" : true
       },
       "ValuesPerRarity" : {
@@ -219,7 +244,9 @@
         "Epic" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
         "Legendary" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 }
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Elusive", "Rebuking", "Duelist's" ],
+      "Suffixes": [ "Repelling", "the Duelist" ]
     },
     {
       "Type" : "ModifyArmor",
@@ -240,7 +267,9 @@
         "Epic" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
         "Legendary" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 }
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Heavy", "Protected" ],
+      "Suffixes": [ "Protection" ]
     },
     {
       "Type" : "ModifyBackstab",
@@ -258,7 +287,9 @@
         "Epic" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
         "Legendary" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 }
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Assassin's", "Stealthy" ],
+      "Suffixes": [ "the Assassin", "Stealth" ]
     },
     {
       "Type" : "IncreaseHealth",
@@ -279,7 +310,9 @@
         "Epic" : { "MinValue" : 20, "MaxValue" : 35, "Increment" : 5 },
         "Legendary" : { "MinValue" : 25, "MaxValue" : 50, "Increment" : 5 }
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Healthy" ],
+      "Suffixes": [ "Health" ]
     },
     {
       "Type" : "IncreaseStamina",
@@ -300,7 +333,9 @@
         "Epic" : { "MinValue" : 20, "MaxValue" : 35, "Increment" : 5 },
         "Legendary" : { "MinValue" : 25, "MaxValue" : 50, "Increment" : 5 }
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Enduring" ],
+      "Suffixes": [ "Endurance" ]
     },
     {
       "Type" : "ModifyHealthRegen",
@@ -320,7 +355,9 @@
         "Epic" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
         "Legendary" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 }
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Vigorous" ],
+      "Suffixes": [ "Vigor" ]
     },
     {
       "Type" : "ModifyStaminaRegen",
@@ -341,7 +378,9 @@
         "Epic" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
         "Legendary" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 }
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Recovering" ],
+      "Suffixes": [ "Recovery" ]
     },
     {
       "Type" : "AddBluntDamage",
@@ -362,6 +401,9 @@
           "TwoHandedWeapon",
           "Bow",
           "Torch"
+        ],
+        "ExcludedSkillTypes": [
+          "Pickaxes"
         ]
       },
       "ValuesPerRarity" : {
@@ -370,7 +412,9 @@
         "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
         "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Brute" ],
+      "Suffixes": [ "Bludgeoning" ]
     },
     {
       "Type" : "AddSlashingDamage",
@@ -391,6 +435,9 @@
           "TwoHandedWeapon",
           "Bow",
           "Torch"
+        ],
+        "ExcludedSkillTypes": [
+          "Pickaxes"
         ]
       },
       "ValuesPerRarity" : {
@@ -399,7 +446,9 @@
         "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
         "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Sharp", "Keen" ],
+      "Suffixes": [ "Slashing", "Cutting" ]
     },
     {
       "Type" : "AddPiercingDamage",
@@ -428,7 +477,9 @@
         "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
         "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Spiked", "Barbed" ],
+      "Suffixes": [ "Piercing" ]
     },
     {
       "Type" : "AddFireDamage",
@@ -449,6 +500,9 @@
           "TwoHandedWeapon",
           "Bow",
           "Torch"
+        ],
+        "ExcludedSkillTypes": [
+          "Pickaxes"
         ]
       },
       "ValuesPerRarity" : {
@@ -457,7 +511,9 @@
         "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
         "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Blazing" ],
+      "Suffixes": [ "Fire" ]
     },
     {
       "Type" : "AddFrostDamage",
@@ -478,6 +534,9 @@
           "TwoHandedWeapon",
           "Bow",
           "Torch"
+        ],
+        "ExcludedSkillTypes": [
+          "Pickaxes"
         ]
       },
       "ValuesPerRarity" : {
@@ -486,7 +545,9 @@
         "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
         "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Frigid" ],
+      "Suffixes": [ "Frost" ]
     },
     {
       "Type" : "AddLightningDamage",
@@ -507,6 +568,9 @@
           "TwoHandedWeapon",
           "Bow",
           "Torch"
+        ],
+        "ExcludedSkillTypes": [
+          "Pickaxes"
         ]
       },
       "ValuesPerRarity" : {
@@ -515,7 +579,9 @@
         "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
         "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Shocking" ],
+      "Suffixes": [ "Lightning" ]
     },
     {
       "Type" : "AddPoisonDamage",
@@ -536,6 +602,9 @@
           "TwoHandedWeapon",
           "Bow",
           "Torch"
+        ],
+        "ExcludedSkillTypes": [
+          "Pickaxes"
         ]
       },
       "ValuesPerRarity" : {
@@ -544,7 +613,9 @@
         "Epic" : { "MinValue" : 8, "MaxValue" : 15, "Increment" : 1 },
         "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Infected" ],
+      "Suffixes": [ "Poison" ]
     },
     {
       "Type" : "AddSpiritDamage",
@@ -565,6 +636,9 @@
           "TwoHandedWeapon",
           "Bow",
           "Torch"
+        ],
+        "ExcludedSkillTypes": [
+          "Pickaxes"
         ]
       },
       "ValuesPerRarity" : {
@@ -573,7 +647,9 @@
         "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
         "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Spirit" ],
+      "Suffixes": [ "the Spirits" ]
     },
     {
       "Type" : "AddFireResistance",
@@ -588,7 +664,9 @@
           "Shield"
         ]
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Extinguishing" ],
+      "Suffixes": [ "Fire Resistance" ]
     },
     {
       "Type" : "AddFrostResistance",
@@ -603,7 +681,9 @@
           "Shield"
         ]
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Insulated" ],
+      "Suffixes": [ "Frost Resistance" ]
     },
     {
       "Type" : "AddLightningResistance",
@@ -618,7 +698,9 @@
           "Shield"
         ]
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Grounded" ],
+      "Suffixes": [ "Lightning Resistance" ]
     },
     {
       "Type" : "AddPoisonResistance",
@@ -633,7 +715,9 @@
           "Shield"
         ]
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Curing" ],
+      "Suffixes": [ "Poison Resistance" ]
     },
     {
       "Type" : "AddSpiritResistance",
@@ -648,7 +732,9 @@
           "Shield"
         ]
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Serene" ],
+      "Suffixes": [ "Spirit Resistance" ]
     },
     {
       "Type" : "ModifyMovementSpeed",
@@ -668,7 +754,9 @@
         "Epic" : { "MinValue" : 7, "MaxValue" : 12, "Increment" : 1 },
         "Legendary" : { "MinValue" : 8, "MaxValue" : 13, "Increment" : 1 }
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Quick" ],
+      "Suffixes": [ "Speed" ]
     },
     {
       "Type" : "ModifySprintStaminaUse",
@@ -685,7 +773,9 @@
         "Epic" : { "MinValue" : 11, "MaxValue" : 16, "Increment" : 1 },
         "Legendary" : { "MinValue" : 14, "MaxValue" : 19, "Increment" : 1 }
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Sprinter's" ],
+      "Suffixes": [ "Sprinting" ]
     },
     {
       "Type" : "ModifyJumpStaminaUse",
@@ -702,7 +792,9 @@
         "Epic" : { "MinValue" : 11, "MaxValue" : 16, "Increment" : 1 },
         "Legendary" : { "MinValue" : 14, "MaxValue" : 19, "Increment" : 1 }
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Acrobat's" ],
+      "Suffixes": [ "the Acrobat" ]
     },
     {
       "Type" : "ModifyAttackStaminaUse",
@@ -723,7 +815,9 @@
         "Epic" : { "MinValue" : 11, "MaxValue" : 16, "Increment" : 1 },
         "Legendary" : { "MinValue" : 14, "MaxValue" : 19, "Increment" : 1 }
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Gladiator's" ],
+      "Suffixes": [ "the Gladiator" ]
     },
     {
       "Type" : "ModifyBlockStaminaUse",
@@ -740,7 +834,9 @@
         "Epic" : { "MinValue" : 11, "MaxValue" : 16, "Increment" : 1 },
         "Legendary" : { "MinValue" : 14, "MaxValue" : 19, "Increment" : 1 }
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Guardian's" ],
+      "Suffixes": [ "the Guardian" ]
     },
     {
       "Type" : "Indestructible",
@@ -766,7 +862,9 @@
           "Legendary"
         ]
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Indestructible" ],
+      "Suffixes": [ "Indestructibility" ]
     },
     {
       "Type" : "Weightless",
@@ -788,7 +886,9 @@
           "Shoulder"
         ]
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Weightless" ],
+      "Suffixes": [ "Weightlessness" ]
     },
     {
       "Type" : "AddCarryWeight",
@@ -808,7 +908,111 @@
         "Epic" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 5 },
         "Legendary" : { "MinValue" : 20, "MaxValue" : 50, "Increment" : 5 }
       },
-      "SelectionWeight" : 1
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Pocketed" ],
+      "Suffixes": [ "Pockets" ]
+    },
+    {
+      "Type" : "LifeSteal",
+      "DisplayText" : "Heal for {0:0.0}% of damage done",
+      "Requirements" : {
+        "AllowedItemTypes" : [
+          "OneHandedWeapon",
+          "TwoHandedWeapon",
+          "Bow"
+        ],
+        "ExcludedSkillTypes": [
+          "Pickaxes"
+        ],
+        "AllowedRarities" : [
+          "Rare",
+          "Epic",
+          "Legendary"
+        ],
+        "ItemUsesStaminaOnAttack" : true
+      },
+      "ValuesPerRarity" : {
+        "Rare" : { "MinValue" : 0.8, "MaxValue" : 1.4, "Increment" : 0.1 },
+        "Epic" : { "MinValue" : 1.5, "MaxValue" : 2.2, "Increment" : 0.1 },
+        "Legendary" : { "MinValue" : 2.3, "MaxValue" : 3, "Increment" : 0.1 }
+      },
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Valravn's" ],
+      "Suffixes": [ "Valravn" ]
+    },
+    {
+      "Type" : "ModifyAttackSpeed",
+      "DisplayText" : "Attack speed increased by +{0:0.#}%",
+      "Requirements" : {
+        "AllowedItemTypes" : [
+          "OneHandedWeapon",
+          "TwoHandedWeapon",
+          "Bow",
+          "Tool"
+        ]
+      },
+      "ValuesPerRarity" : {
+        "Magic" : { "MinValue" : 5, "MaxValue" : 10, "Increment" : 1 },
+        "Rare" : { "MinValue" : 8, "MaxValue" : 13, "Increment" : 1 },
+        "Epic" : { "MinValue" : 11, "MaxValue" : 16, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 14, "MaxValue" : 19, "Increment" : 1 }
+      },
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Striker's" ],
+      "Suffixes": [ "Striking" ]
+    },
+    {
+      "Type" : "Throwable",
+      "DisplayText" : "Throwable",
+      "Requirements" : {
+        "AllowedItemTypes" : [
+          "OneHandedWeapon",
+          "TwoHandedWeapon"
+        ],
+        "ExcludedSkillTypes": [
+          "Pickaxes",
+          "Spears"
+        ]
+      },
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Throwing" ],
+      "Suffixes": [ "Throwing" ]
+    },
+    {
+      "Type" : "Waterproof",
+      "DisplayText" : "Waterproof",
+      "Requirements" : {
+        "AllowedItemTypes" : [
+          "Shoulder"
+        ]
+      },
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Waterproof" ],
+      "Suffixes": [ "Water-repelling" ]
+    },
+    {
+      "Type" : "Paralyze",
+      "DisplayText" : "Paralyze for {0:0.#} seconds",
+      "Requirements" : {
+        "NoRoll": true,
+        "AllowedItemTypes" : [
+          "OneHandedWeapon",
+          "TwoHandedWeapon",
+          "Bow"
+        ],
+        "ExcludedSkillTypes": [
+          "Pickaxes"
+        ]
+      },
+      "ValuesPerRarity" : {
+        "Magic" : { "MinValue" : 0.5, "MaxValue" : 2, "Increment" : 0.5 },
+        "Rare" : { "MinValue" : 1, "MaxValue" : 2.5, "Increment" : 0.5 },
+        "Epic" : { "MinValue" : 1.5, "MaxValue" : 3, "Increment" : 0.5 },
+        "Legendary" : { "MinValue" : 2, "MaxValue" : 4, "Increment" : 0.5 }
+      },
+      "SelectionWeight" : 1,
+      "Prefixes": [ "Paralyzing" ],
+      "Suffixes": [ "Paralysis" ]
     }
   ]
 }

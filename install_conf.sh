@@ -2,14 +2,14 @@
 set -x
 # conf plus client + server
 VER=9.7
+## jeu 
 cp valheimplus/valheim_plus_$VER.cfg Valheim/BepInEx/config/valheim_plus.cfg
 cp valheimplus/valheim_plus_$VER.cfg Valheim\ dedicated\ server/BepInEx/config/valheim_plus.cfg
+## jeu plugins elsa
+cp cp valheimplus/valheim_plus_$VER.cfg Valerheim/BepInEx/config/valheim_plus.cfg
+cp cp valheimplus/valheim_plus_$VER.cfg Valerheim-server/BepInEx/config/valheim_plus.cfg
 
-# hack server pour data sent 60=>600
-# doit être recompilée pour la nouvelle version de valheim 
-#cp assembly_valheim.dll Valheim\ dedicated\ server/valheim_server_Data/Managed 
-
-# plugin spawn that client + serveur / plugin + conf
+# jeu : plugin spawn that client + serveur / plugin + conf
 ## plugin
 cp spawnthat/Valheim.SpawnThat.dll Valheim\ dedicated\ server/BepInEx/plugins/
 cp spawnthat/Valheim.SpawnThat.dll Valheim/BepInEx/plugins/
@@ -17,7 +17,7 @@ cp spawnthat/Valheim.SpawnThat.dll Valheim/BepInEx/plugins/
 cp spawnthat/*.cfg Valheim/BepInEx/config/
 cp spawnthat/*.cfg Valheim\ dedicated\ server/BepInEx/config/
 
-# cuton raids
+# jeu : cuton raids
 ## plugin
 cp customraids/Valheim.CustomRaids.dll Valheim\ dedicated\ server/BepInEx/plugins/
 cp customraids/Valheim.CustomRaids.dll Valheim/BepInEx/plugins/
@@ -25,7 +25,7 @@ cp customraids/Valheim.CustomRaids.dll Valheim/BepInEx/plugins/
 cp customraids/*.cfg Valheim/BepInEx/config/
 cp customraids/*.cfg Valheim\ dedicated\ server/BepInEx/config/
 
-# dropthat
+# jeu : dropthat
 ## plugin
 cp dropthat/Valheim.DropThat.dll Valheim\ dedicated\ server/BepInEx/plugins/
 cp dropthat/Valheim.DropThat.dll Valheim/BepInEx/plugins/
@@ -33,15 +33,35 @@ cp dropthat/Valheim.DropThat.dll Valheim/BepInEx/plugins/
 cp dropthat/*.cfg Valheim/BepInEx/config/
 cp dropthat/*.cfg Valheim\ dedicated\ server/BepInEx/config/
 
-# loot epic
-# cp ExtendedItemDataFramework.dll Valheim/BepInEx/plugins/
-# cp ExtendedItemDataFramework.dll Valheim\ dedicated\ server/BepInEx/plugins/
-# rm -rf Valheim/BepInEx/plugins/EpicLoot/
-# rm -rf Valheim\ dedicated\ server/BepInEx/plugins/EpicLoot/
-# cp -R EpicLoot Valheim/BepInEx/plugins/
-# cp -R EpicLoot Valheim\ dedicated\ server/BepInEx/plugins/
-# cp randyknapp.mods.epicloot.cfg Valheim/BepInEx/config/
-# cp randyknapp.mods.epicloot.cfg Valheim\ dedicated\ server/BepInEx/config/
+# jeu plugins elsa
+## loot epic
+cp EpicLoot/ExtendedItemDataFramework.dll Valerheim/BepInEx/plugins/
+cp EpicLoot/ExtendedItemDataFramework.dll Valerheim-server/BepInEx/plugins/
+[ -d Valerheim/BepInEx/plugins/EpicLoot ] || mkdir Valerheim/BepInEx/plugins/EpicLoot
+[ -d Valerheim-server/BepInEx/plugins/EpicLoot ] || mkdir Valerheim-server/BepInEx/plugins/EpicLoot
+rm -f Valerheim/BepInEx/plugins/EpicLoot/*
+rm -f Valerheim-server/BepInEx/plugins/EpicLoot/*
+cp -R EpicLoot/dll/* Valerheim/BepInEx/plugins/EpicLoot/
+cp -R EpicLoot/dll/* Valerheim-server/BepInEx/plugins/EpicLoot/
+cp EpicLoot/randyknapp.mods.epicloot.cfg Valerheim/BepInEx/config/
+cp EpicLoot/randyknapp.mods.epicloot.cfg Valerheim-server/BepInEx/config/
+## odin plus
+cp odinplus/*.dll Valerheim/BepInEx/plugins/
+cp odinplus/*.dll Valerheim-server/BepInEx/plugins/
+cp EpicLoot/*.cfg Valerheim/BepInEx/config/
+cp EpicLoot/*.cfg Valerheim-server/BepInEx/config/
+## runic power
+[ -d Valerheim/BepInEx/plugins/RunicPower ] || mkdir Valerheim/BepInEx/plugins/RunicPower
+[ -d Valerheim-server/BepInEx/plugins/RunicPower ] || mkdir Valerheim-server/BepInEx/plugins/RunicPower
+cp runic/*.dll Valerheim/BepInEx/plugins/
+cp runic/*.dll Valerheim-server/BepInEx/plugins/
+rm Valerheim/BepInEx/plugins/RunicPower/*
+rm Valerheim-server/BepInEx/plugins/RunicPower/*
+cp runic/RunicPower/* Valerheim/BepInEx/plugins/RunicPower/
+cp runic/RunicPower/* Valerheim-server/BepInEx/plugins/RunicPower/
+
+
+
 
 # bettercontinent
 # cp BetterContinents.dll Valheim\ dedicated\ server/BepInEx/plugins/
