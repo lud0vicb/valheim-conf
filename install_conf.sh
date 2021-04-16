@@ -14,6 +14,7 @@ for a in $JEU $JEUELSA $SRV $SRVELSA ; do
 done
 # conf plus client + server
 VER=9.7
+cp valheimplus/valheim_plus_$VER.cfg valheimplus/valheim_plus.cfg
 for i in $JEU $JEUELSA $SRV $SRVELSA ; do
 	cp valheimplus/valheim_plus_$VER.cfg $i/BepInEx/config/valheim_plus.cfg
 done
