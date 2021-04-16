@@ -5,11 +5,16 @@ SRV=/mnt/c/jeux/steamapps/common/Valheim-server
 SRVELSA=/mnt/c/jeux/steamapps/common/Valerheim-server
 
 # clean
+[ -d /tmp/CustomTextures ] && rm -rf /tmp/CustomTextures
+[ -d $JEU/BepInEx/plugins/CustomTextures ] && cp -R $JEU/BepInEx/plugins/CustomTextures /tmp/
 for a in $JEU $JEUELSA $SRV $SRVELSA ; do
 	rm -rf $a/BepInEx/config/
 	rm -rf $a/BepInEx/plugins/
 	mkdir  $a/BepInEx/config/
 	mkdir  $a/BepInEx/plugins/
+done
+for b in $JEU $JEUELSA ; do
+	[ -d /tmp/CustomTextures ] && cp -R /tmp/CustomTextures $b/BepInEx/plugins/
 done
 # conf plus client + server
 VER=9.7
