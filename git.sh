@@ -7,8 +7,8 @@ printf "\n-----------------------------------------------------------\npush\n---
 git commit  -m "$(date)" .
 git push
 printf "\n-----------------------------------------------------------\ntag\n-----------------------------------------------------------\n\n"
-git checkout glorom
+git checkout elsa
 git merge main
 git status
-git push origin HEAD:glorom --force
+git push origin HEAD:elsa --force
 git checkout main
