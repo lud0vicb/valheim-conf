@@ -1,34 +1,50 @@
-set valheim=e:\Steam\SteamApps\common\Valheim
-set valerheim=e:\Steam\SteamApps\common\Valerheim
+set valheim=c:\jeux\SteamApps\common\Valheim-2
+set valerheim=c:\jeux\SteamApps\common\Valerheim-2
 
 echo 'téléchargement version courante'
-del /f /s /q valheim-conf-cfg-dll
-curl -o valheim-glorom.zip -LJO https://github.com/lud0vicb/valheim-conf/archive/cfg-dll.zip
-tar -xf valheim-glorom.zip
-cd valheim-conf-cfg-dll
-
-echo 'installation config jeu classique'
-del /f /s /q %valheim%\BepInEx\config
-del /f /s /q %valheim%\BepInEx\plugins
-robocopy /s Valheim\BepInEx\config %valheim%\BepInEx\config
-robocopy /s Valheim\BepInEx\plugins %valheim%\BepInEx\plugins
-copy Valheim/*.cmd %valheim%
+del /f /s /q valheim-conf-elsa
+curl -o valheim-elsa.zip -LJO https://github.com/lud0vicb/valheim-conf/archive/elsa.zip
+tar -xf valheim-elsa.zip
+cd valheim-conf-elsa
 
 if exist %valerheim% (
     rem file exists
 ) else (
-    echo "copie du jeu dans une nouvelle installation"
-	robocopy /s %valheim% %valerheim%
-	echo "continue ?"
+    echo "copie du jeu elsa dans une nouvelle installation"
+	robocopy /e %valheim% %valerheim%
 	pause
 )
 
+echo 'nettoyage'
+del /f /s /q %valheim%\BepInEx\config\
+del /f /s /q %valheim%\BepInEx\plugins\
+del /f /s /q %valerheim%\BepInEx\config\
+del /f /s /q %valerheim%\BepInEx\plugins\
+
+echo 'installation valheim plus'
+copy valheimplus\valheim_plus.cfg %valheim%\BepInEx\config\
+copy valheimplus\valheim_plus.cfg %valerheim%\BepInEx\config\
+copy valheimplus\*.dll %valheim%\BepInEx\plugins\
+copy valheimplus\*.dll %valerheim%\BepInEx\plugins\
+
+echo 'installation config jeu classique'
+copy BepInEx\config\client\commun\*.cfg %valheim%\BepInEx\config\
+copy BepInEx\config\client\base\*.cfg   %valheim%\BepInEx\config\
+copy BepInEx\plugins\client\commun\*.*  %valheim%\BepInEx\plugins\
+copy BepInEx\plugins\client\base\*.*    %valheim%\BepInEx\plugins\
+copy *.cmd %valheim%
+copy base\*.dll %valheim%\BepInEx\plugins\
+copy base\*.cfg %valheim%\BepInEx\config\
+
 echo 'installation config jeu plugins elsa'
-del /f /s /q %valerheim%\BepInEx\config
-del /f /s /q %valerheim%\BepInEx\plugins
-robocopy /s Valerheim\BepInEx\config %valerheim%\BepInEx\config
-robocopy /s Valerheim\BepInEx\plugins %valerheim%\BepInEx\plugins
-copy Valheim/*.cmd %valerheim%
+copy BepInEx\config\client\commun\*.cfg %valerheim%\BepInEx\config\
+copy BepInEx\config\client\elsa\*.cfg   %valerheim%\BepInEx\config\
+copy BepInEx\plugins\client\commun\*.*  %valerheim%\BepInEx\plugins\
+copy BepInEx\plugins\client\elsa\*.*    %valerheim%\BepInEx\plugins\
+copy *.cmd %valerheim%
+copy elsa\*.dll %valerheim%\BepInEx\plugins\
+robocopy /e elsa\EpicLoot   %valerheim%\BepInEx\plugins\EpicLoot\
+robocopy /e elsa\RunicPower %valerheim%\BepInEx\plugins\RunicPower\
 
 explorer %valheim%
 explorer %valerheim%
