@@ -1,0 +1,1 @@
+valheim.exe -force-vulkan -window-mode exclusive -console

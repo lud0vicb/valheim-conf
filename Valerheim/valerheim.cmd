@@ -1,0 +1,1 @@
+valheim.exe -window-mode exclusive -console
