@@ -16,10 +16,13 @@ if exist %valerheim% (
 )
 
 echo 'nettoyage'
+robocopy /e %valheim%\BepInEx\plugins\CustomTextures\ c:\CustomTextures
 del /f /s /q %valheim%\BepInEx\config\
 del /f /s /q %valheim%\BepInEx\plugins\
 del /f /s /q %valerheim%\BepInEx\config\
 del /f /s /q %valerheim%\BepInEx\plugins\
+robocopy /e c:\CustomTextures %valheim%\BepInEx\plugins\CustomTextures\ 
+robocopy /e c:\CustomTextures %valerheim%\BepInEx\plugins\CustomTextures\ 
 
 echo 'installation valheim plus'
 copy valheimplus\valheim_plus.cfg %valheim%\BepInEx\config\
