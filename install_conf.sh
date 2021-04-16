@@ -1,5 +1,4 @@
 #!/bin/bash
-set -x
 JEU=/mnt/c/jeux/steamapps/common/Valheim
 JEUELSA=/mnt/c/jeux/steamapps/common/Valerheim
 SRV=/mnt/c/jeux/steamapps/common/Valheim-server
@@ -18,21 +17,23 @@ cp valheimplus/valheim_plus_$VER.cfg valheimplus/valheim_plus.cfg
 for i in $JEU $JEUELSA $SRV $SRVELSA ; do
 	cp valheimplus/valheim_plus_$VER.cfg $i/BepInEx/config/valheim_plus.cfg
 done
+cp valheimplus/*.dll $SRVELSA/BepInEx/plugins/
+cp valheimplus/*.dll $SRV/BepInEx/plugins/
 
 # conf 
-cp BepInEx\config\client\commun\*.cfg $JEU/BepInEx/config/
-cp BepInEx\config\client\commun\*.cfg $JEUELSA/BepInEx/config/
-cp BepInEx\config\client\base\*.cfg   $JEU/BepInEx/config/
-cp BepInEx\config\client\elsa\*.cfg   $JEUELSA/BepInEx/config/
+cp BepInEx/config/client/commun/* $JEU/BepInEx/config/
+cp BepInEx/config/client/commun/* $JEUELSA/BepInEx/config/
+cp BepInEx/config/client/base/*   $JEU/BepInEx/config/
+cp BepInEx/config/client/elsa/*   $JEUELSA/BepInEx/config/
 
 # plugins
-cp BepInEx\plugins\client\commun\*.cfg $JEU/BepInEx/plugins/
-cp BepInEx\plugins\client\commun\*.cfg $JEUELSA/BepInEx/plugins/
-cp BepInEx\plugins\client\base\*.cfg   $JEU/BepInEx/plugins/
-cp BepInEx\plugins\client\elsa\*.cfg   $JEUELSA/BepInEx/plugins/
+cp BepInEx/plugins/client/commun/* $JEU/BepInEx/plugins/
+cp BepInEx/plugins/client/commun/* $JEUELSA/BepInEx/plugins/
+cp BepInEx/plugins/client/base/*   $JEU/BepInEx/plugins/
+cp BepInEx/plugins/client/elsa/*   $JEUELSA/BepInEx/plugins/
 
 # plugins et conf pour le jeu de base
-for j in spawnthat customraids dropthat ; do
+for j in base ; do
 	cp $j/*.dll $JEU/BepInEx/plugins/
 	cp $j/*.dll $SRV/BepInEx/plugins/
 	cp $j/*.cfg $JEU/BepInEx/config/
@@ -40,26 +41,14 @@ for j in spawnthat customraids dropthat ; do
 done
 	
 # plugins et conf elsa
-cp EpicLoot/ExtendedItemDataFramework.dll $SRVELSA/BepInEx/plugins/
-cp EpicLoot/ExtendedItemDataFramework.dll $JEUELSA/BepInEx/plugins/
-
 for k in EpicLoot RunicPower ; do
-	mkdir $SRVELSA/BepInEx/plugins/$k
-	mkdir $JEUELSA/BepInEx/plugins/$k
-	cp $k/plugins/* $JEUELSA/BepInEx/plugins/EpicLoot/
-	cp $k/plugins/* $SRVELSA/BepInEx/plugins/EpicLoot/
-	cp $k/*.cfg     $JEUELSA/BepInEx/config/
-	cp $k/*.cfg     $SRVELSA/BepInEx/config/
+	cp -R elsa/$k $JEUELSA/BepInEx/plugins/
+	cp -R elsa/$k $SRVELSA/BepInEx/plugins/
 done
 
-cp odinplus/*.dll $JEUELSA/BepInEx/plugins/
-cp odinplus/*.dll $SRVELSA/BepInEx/plugins/
-cp odinplus/*.cfg $SRVELSA/BepInEx/config/
-cp odinplus/*.cfg $JEUELSA/BepInEx/config/
+cp elsa/*.dll $JEUELSA/BepInEx/plugins/
+cp elsa/*.dll $SRVELSA/BepInEx/plugins/
+cp elsa/*.cfg $JEUELSA/BepInEx/config/
+cp elsa/*.cfg $SRVELSA/BepInEx/config/
 
 
-# bettercontinent
-# cp BetterContinents.dll Valheim\ dedicated\ server/BepInEx/plugins/
-# cp BetterContinents.dll Valheim/BepInEx/plugins/
-# cp BetterContinents.cfg Valheim\ dedicated\ server/BepInEx/config/
-# cp BetterContinents.cfg Valheim/BepInEx/config/
