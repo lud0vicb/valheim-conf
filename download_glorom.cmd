@@ -46,6 +46,7 @@ copy BepInEx\plugins\client\commun\*.*  %valerheim%\BepInEx\plugins\
 copy BepInEx\plugins\client\elsa\*.*    %valerheim%\BepInEx\plugins\
 copy *.cmd %valerheim%
 copy elsa\*.dll %valerheim%\BepInEx\plugins\
+copy elsa\*.cfg %valerheim%\BepInEx\config\
 robocopy /e elsa\EpicLoot   %valerheim%\BepInEx\plugins\EpicLoot\
 robocopy /e elsa\RunicPower %valerheim%\BepInEx\plugins\RunicPower\
 

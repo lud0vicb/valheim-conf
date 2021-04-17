@@ -1067,14 +1067,14 @@
         },
         {
           "Level": 3,
-          "Drops": [ [0, 100], [1, 0], [2, 0], [3, 0] ],
+          "Drops": [ [0, 50], [1, 40], [2, 10], [3, 0] ],
           "Loot": [
             { "Item": "Tier2Mob.3", "Weight": 1, "Rarity": [ 30, 60, 9, 1 ] }
           ]
         },
         {
           "Level": 4,
-          "Drops": [ [0, 100], [1, 0], [2, 0], [3, 0] ],
+          "Drops": [ [0, 50], [1, 40], [2, 10], [3, 0] ],
           "Loot": [
             { "Item": "Tier2Mob.4", "Weight": 1, "Rarity": [ 15, 65, 15, 5 ] }
           ]
@@ -1116,7 +1116,7 @@
         },
         {
           "Level": 3,
-          "Drops": [ [0, 100], [1, 0], [2, 0], [3, 0] ],
+          "Drops": [ [0, 50], [1, 40], [2, 10], [3, 0] ],
           "Loot": [
             { "Item": "Tier2Mob.3", "Weight": 1, "Rarity": [ 30, 60, 9, 1 ] }
           ]
@@ -2405,7 +2405,7 @@
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_meadows",
-      "Drops": [ [1, 80], [2, 20] ],
+      "Drops": [ [0, 20], [1, 80] ],
       "Loot": [
         { "Item": "Tier0Armor", "Weight": 4, "Rarity": [ 97, 2, 1, 0] },
         { "Item": "Tier1Armor", "Weight": 1, "Rarity": [ 97, 2, 1, 0] }
@@ -2415,7 +2415,7 @@
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_blackforest",
-      "Drops": [ [1, 100] ],
+      "Drops": [ [0, 20], [1, 80] ],
       "Loot": [
         { "Item": "Tier0Shields",    "Weight": 1, "Rarity": [ 95, 4, 1, 0] },
         { "Item": "Tier1Weapons", "Weight": 2, "Rarity": [ 95, 4, 1, 0] }
@@ -2425,7 +2425,7 @@
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_forestcrypt",
-      "Drops": [ [1, 80], [2, 15], [3, 5] ],
+      "Drops": [ [0, 20], [1, 80] ],
       "Loot": [
         { "Item": "Tier1Weapons", "Weight": 2, "Rarity": [ 95, 4, 1, 0] },
         { "Item": "Tier2Shields", "Weight": 1, "Rarity": [ 95, 4, 1, 0] }
@@ -2435,7 +2435,7 @@
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_fCrypt",
-      "Drops": [  [1, 60], [2, 40] ],
+      "Drops": [ [0, 20], [1, 80] ],
       "Loot": [{ "Item": "TreasureChest_forestcrypt.1" }]
     },
     //TreasureChest_trollcave
@@ -2472,7 +2472,7 @@
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_sunkencrypt",
-      "Drops": [ [1, 80], [2, 15], [3, 5] ],
+      "Drops": [ [0, 20], [1, 80] ],
       "Loot": [
         { "Item": "Tier2Armor", "Weight": 3, "Rarity": [ 80, 17, 3, 0] },
         { "Item": "Tier3Weapons", "Weight": 1, "Rarity": [ 80, 17, 3, 0] }
@@ -2482,7 +2482,7 @@
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_swamp",
-      "Drops": [ [1, 80], [2, 20] ],
+      "Drops": [ [0, 20], [1, 80] ],
       "Loot": [
         { "Item": "Tier2Armor", "Weight": 5 },
         { "Item": "Tier3Weapons", "Weight": 1 }
@@ -2492,7 +2492,7 @@
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_mountains",
-      "Drops": [ [1, 80], [2, 20] ],
+      "Drops": [ [0, 20], [1, 80] ],
       "Loot": [
         { "Item": "Tier3Weapons", "Weight": 4 },
         { "Item": "Tier4Shields", "Weight": 1 }
@@ -2502,7 +2502,7 @@
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_plains_stone",
-      "Drops": [ [1, 80], [2, 20] ],
+      "Drops": [ [0, 20], [1, 80] ],
       "Loot": [
         { "Item": "TreasureChest_heath.1", "Weight": 1 }
       ]
@@ -2511,7 +2511,7 @@
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_heath",
-      "Drops": [ [1, 80], [2, 20] ],
+      "Drops": [ [0, 20], [1, 80] ],
       "Loot": [
         { "Item": "Tier4Shields", "Weight": 3 },
         { "Item": "Tier5Armor", "Weight": 1 }
