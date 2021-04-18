@@ -14,7 +14,7 @@
             "archetype": "Generic",
             "description": "Returns you back to your resting place.",
             "implemented": true,
-            "cooldown": 300,
+            "cooldown": 3600,
             "recipe": {
                 "name": "Recipe_Generic_Recall",
                 "item": "Generic_Recall",
@@ -22,7 +22,7 @@
                 "resources": [
                     {
                         "item": "GreydwarfEye",
-                        "amount": 10
+                        "amount": 20
                     }
                 ]
             },
@@ -90,7 +90,7 @@
                 "resources": [
                     {
                         "item": "Flint",
-                        "amount": 1
+                        "amount": 10
                     }
                 ]
             },
@@ -121,7 +121,7 @@
                 "resources": [
                     {
                         "item": "BoneFragments",
-                        "amount": 1
+                        "amount": 10
                     }
                 ]
             },
@@ -150,7 +150,7 @@
                 "resources": [
                     {
                         "item": "Crystal",
-                        "amount": 1
+                        "amount": 10
                     }
                 ]
             },
@@ -178,7 +178,7 @@
                 "resources": [
                     {
                         "item": "Bloodbag",
-                        "amount": 1
+                        "amount": 10
                     }
                 ]
             },
@@ -204,7 +204,7 @@
                 "resources": [
                     {
                         "item": "MushroomYellow",
-                        "amount": 1
+                        "amount": 10
                     }
                 ]
             },
@@ -235,7 +235,7 @@
                 "resources": [
                     {
                         "item": "Ooze",
-                        "amount": 1
+                        "amount": 10
                     }
                 ]
             },
@@ -266,7 +266,7 @@
                 "resources": [
                     {
                         "item": "NeckTail",
-                        "amount": 1
+                        "amount": 10
                     }
                 ]
             },
@@ -291,7 +291,7 @@
                 "resources": [
                     {
                         "item": "WolfFang",
-                        "amount": 1
+                        "amount": 10
                     }
                 ]
             },
@@ -312,11 +312,11 @@
             "recipe": {
                 "name": "Recipe_Cleric_HealingCircle",
                 "item": "Cleric_HealingCircle",
-                "amount": 1,
+                "amount": 2,
                 "resources": [
                     {
                         "item": "Dandelion",
-                        "amount": 3
+                        "amount": 10
                     }
                 ]
             },
@@ -347,7 +347,7 @@
                 "resources": [
                     {
                         "item": "WolfPelt",
-                        "amount": 1
+                        "amount": 10
                     }
                 ]
             },
@@ -380,7 +380,7 @@
                 "resources": [
                     {
                         "item": "Entrails",
-                        "amount": 1
+                        "amount": 10
                     }
                 ]
             },
@@ -404,7 +404,7 @@
                 "resources": [
                     {
                         "item": "Blueberries",
-                        "amount": 1
+                        "amount": 10
                     }
                 ]
             },
@@ -431,7 +431,7 @@
                 "resources": [
                     {
                         "item": "FreezeGland",
-                        "amount": 1
+                        "amount": 10
                     }
                 ]
             },
@@ -467,7 +467,7 @@
                 "resources": [
                     {
                         "item": "Resin",
-                        "amount": 2
+                        "amount": 10
                     }
                 ]
             },
@@ -503,7 +503,7 @@
                 "resources": [
                     {
                         "item": "ElderBark",
-                        "amount": 2
+                        "amount": 10
                     }
                 ]
             },
@@ -533,7 +533,7 @@
                 "resources": [
                     {
                         "item": "Thistle",
-                        "amount": 2
+                        "amount": 10
                     }
                 ]
             },
