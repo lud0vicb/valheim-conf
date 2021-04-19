@@ -1,1 +1,1 @@
-valheim.exe -force-vulkan -window-mode exclusive -console
+valheim.exe -console -force-vulkan -window-mode exclusive 
