@@ -26,34 +26,29 @@ cp valheimplus/*.dll $SRVELSA/BepInEx/plugins/
 cp valheimplus/*.dll $SRV/BepInEx/plugins/
 
 # conf 
-cp BepInEx/config/client/commun/* $JEU/BepInEx/config/
-cp BepInEx/config/client/commun/* $JEUELSA/BepInEx/config/
-cp BepInEx/config/client/base/*   $JEU/BepInEx/config/
-cp BepInEx/config/client/elsa/*   $JEUELSA/BepInEx/config/
+cp client/config/commun/* $JEU/BepInEx/config/
+cp client/config/commun/* $JEUELSA/BepInEx/config/
+cp client/config/base/*   $JEU/BepInEx/config/
+cp client/config/elsa/*   $JEUELSA/BepInEx/config/
 
 # plugins
-cp BepInEx/plugins/client/commun/* $JEU/BepInEx/plugins/
-cp BepInEx/plugins/client/commun/* $JEUELSA/BepInEx/plugins/
-cp BepInEx/plugins/client/base/*   $JEU/BepInEx/plugins/
-cp BepInEx/plugins/client/elsa/*   $JEUELSA/BepInEx/plugins/
+cp -R client/plugins/commun/ $JEU/BepInEx/plugins/client-commun/
+cp -R client/plugins/commun/ $JEUELSA/BepInEx/plugins/client-commun/
+cp -R client/plugins/base/   $JEU/BepInEx/plugins/client-base/
+cp -R client/plugins/elsa/   $JEUELSA/BepInEx/plugins/client-elsa/
 
 # plugins et conf pour le jeu de base
-for j in base ; do
-	cp $j/*.dll $JEU/BepInEx/plugins/
-	cp $j/*.dll $SRV/BepInEx/plugins/
-	cp $j/*.cfg $JEU/BepInEx/config/
-	cp $j/*.cfg $SRV/BepInEx/config/
-done
+cp -R client-server-base/plugins/ $JEU/BepInEx/plugins/client-server-base/
+cp -R client-server-base/plugins/ $SRV/BepInEx/plugins/client-server-base/
+
+cp client-server-base/config/* $JEU/BepInEx/config/
+cp client-server-base/config/* $SRV/BepInEx/config/
 	
 # plugins et conf elsa
-for k in EpicLoot RunicPower ; do
-	cp -R elsa/$k $JEUELSA/BepInEx/plugins/
-	cp -R elsa/$k $SRVELSA/BepInEx/plugins/
-done
+cp -R client-server-elsa/plugins/ $JEUELSA/BepInEx/plugins/client-server-elsa/
+cp -R client-server-elsa/plugins/ $SRVELSA/BepInEx/plugins/client-server-elsa/
 
-cp elsa/*.dll $JEUELSA/BepInEx/plugins/
-cp elsa/*.dll $SRVELSA/BepInEx/plugins/
-cp elsa/*.cfg $JEUELSA/BepInEx/config/
-cp elsa/*.cfg $SRVELSA/BepInEx/config/
+cp client-server-elsa/config/* $JEUELSA/BepInEx/config/
+cp client-server-elsa/config/* $SRVELSA/BepInEx/config/
 
 

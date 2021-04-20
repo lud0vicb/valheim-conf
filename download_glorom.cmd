@@ -31,24 +31,24 @@ copy valheimplus\*.dll %valheim%\BepInEx\plugins\
 copy valheimplus\*.dll %valerheim%\BepInEx\plugins\
 
 echo 'installation config jeu classique'
-copy BepInEx\config\client\commun\*.cfg %valheim%\BepInEx\config\
-copy BepInEx\config\client\base\*.cfg   %valheim%\BepInEx\config\
-copy BepInEx\plugins\client\commun\*.*  %valheim%\BepInEx\plugins\
-copy BepInEx\plugins\client\base\*.*    %valheim%\BepInEx\plugins\
+copy client\config\commun\*.* %valheim%\BepInEx\config\
+copy client\config\base\*.*   %valheim%\BepInEx\config\
+robocopy /e client\plugins\commun\   %valheim%\BepInEx\plugins\client-commun\
+robocopy /e client\plugins\base\   %valheim%\BepInEx\plugins\client-base\
 copy *.cmd %valheim%
-copy base\*.dll %valheim%\BepInEx\plugins\
-copy base\*.cfg %valheim%\BepInEx\config\
+robocopy /e client-server-base\plugins\ %valheim%\BepInEx\plugins\client-server-base\
+copy client-server-base\*.cfg %valheim%\BepInEx\config\
+rem del %valheim%\BepInEx\plugins\InvisHelm.dll
 
 echo 'installation config jeu plugins elsa'
-copy BepInEx\config\client\commun\*.cfg %valerheim%\BepInEx\config\
-copy BepInEx\config\client\elsa\*.cfg   %valerheim%\BepInEx\config\
-copy BepInEx\plugins\client\commun\*.*  %valerheim%\BepInEx\plugins\
-copy BepInEx\plugins\client\elsa\*.*    %valerheim%\BepInEx\plugins\
+copy client\config\commun\*.cfg %valerheim%\BepInEx\config\
+copy client\config\elsa\*.cfg   %valerheim%\BepInEx\config\
+robocopy /e client\plugins\commun\   %valerheim%\BepInEx\plugins\client-commun\
+robocopy /e client\plugins\elsa\   %valerheim%\BepInEx\plugins\client-elsa\
 copy *.cmd %valerheim%
-copy elsa\*.dll %valerheim%\BepInEx\plugins\
-copy elsa\*.cfg %valerheim%\BepInEx\config\
-robocopy /e elsa\EpicLoot   %valerheim%\BepInEx\plugins\EpicLoot\
-robocopy /e elsa\RunicPower %valerheim%\BepInEx\plugins\RunicPower\
+robocopy /e client-server-elsa\plugins\ %valerheim%\BepInEx\plugins\client-server-elsa\
+copy client-server-elsa\*.cfg %valerheim%\BepInEx\config\
+rem del %valerheim%\BepInEx\plugins\InvisHelm.dll
 
 explorer %valheim%
 explorer %valerheim%
