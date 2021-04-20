@@ -17,37 +17,41 @@ if exist %valerheim% (
 
 echo 'nettoyage'
 robocopy /e %valheim%\BepInEx\plugins\CustomTextures\ c:\CustomTextures
+
 del /f /s /q %valheim%\BepInEx\config\
 del /f /s /q %valheim%\BepInEx\plugins\
 del /f /s /q %valerheim%\BepInEx\config\
 del /f /s /q %valerheim%\BepInEx\plugins\
+
 robocopy /e c:\CustomTextures %valheim%\BepInEx\plugins\CustomTextures\ 
 robocopy /e c:\CustomTextures %valerheim%\BepInEx\plugins\CustomTextures\ 
 
-echo 'installation valheim plus'
-copy valheimplus\valheim_plus.cfg %valheim%\BepInEx\config\
-copy valheimplus\valheim_plus.cfg %valerheim%\BepInEx\config\
-copy valheimplus\*.dll %valheim%\BepInEx\plugins\
-copy valheimplus\*.dll %valerheim%\BepInEx\plugins\
-
 echo 'installation config jeu classique'
-copy client\config\commun\*.* %valheim%\BepInEx\config\
-copy client\config\base\*.*   %valheim%\BepInEx\config\
-robocopy /e client\plugins\commun\   %valheim%\BepInEx\plugins\client-commun\
-robocopy /e client\plugins\base\   %valheim%\BepInEx\plugins\client-base\
-copy *.cmd %valheim%
+copy client\config\commun\*.*          %valheim%\BepInEx\config\
+copy client\config\base\*.*            %valheim%\BepInEx\config\
+copy client-server-base\config\*.cfg   %valheim%\BepInEx\config\
+copy client-server\config\commun\*.cfg %valheim%\BepInEx\config\
+
+robocopy /e client\plugins\commun\      %valheim%\BepInEx\plugins\client-commun\
+robocopy /e client\plugins\base\        %valheim%\BepInEx\plugins\client-base\
 robocopy /e client-server-base\plugins\ %valheim%\BepInEx\plugins\client-server-base\
-copy client-server-base\*.cfg %valheim%\BepInEx\config\
+robocopy /e client-server\plugins\      %valheim%\BepInEx\plugins\client-server\
+
+copy *.cmd %valheim%
 rem del %valheim%\BepInEx\plugins\InvisHelm.dll
 
 echo 'installation config jeu plugins elsa'
-copy client\config\commun\*.* %valerheim%\BepInEx\config\
-copy client\config\elsa\*.*   %valerheim%\BepInEx\config\
-robocopy /e client\plugins\commun\   %valerheim%\BepInEx\plugins\client-commun\
-robocopy /e client\plugins\elsa\   %valerheim%\BepInEx\plugins\client-elsa\
-copy *.cmd %valerheim%
+copy client\config\commun\*.*           %valerheim%\BepInEx\config\
+copy client\config\elsa\*.*             %valerheim%\BepInEx\config\
+copy client-server-elsa\config\*.cfg    %valerheim%\BepInEx\config\
+copy client-server\config\commun\*.cfg  %valerheim%\BepInEx\config\
+
+robocopy /e client\plugins\commun\      %valerheim%\BepInEx\plugins\client-commun\
+robocopy /e client\plugins\elsa\        %valerheim%\BepInEx\plugins\client-elsa\
 robocopy /e client-server-elsa\plugins\ %valerheim%\BepInEx\plugins\client-server-elsa\
-copy client-server-elsa\*.cfg %valerheim%\BepInEx\config\
+robocopy /e client-server\plugins\      %valerheim%\BepInEx\plugins\client-server\
+
+copy *.cmd %valerheim%
 rem del %valerheim%\BepInEx\plugins\InvisHelm.dll
 
 explorer %valheim%

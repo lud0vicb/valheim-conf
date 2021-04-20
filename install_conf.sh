@@ -16,39 +16,46 @@ done
 for b in $JEU $JEUELSA ; do
 	[ -d /tmp/CustomTextures ] && cp -R /tmp/CustomTextures $b/BepInEx/plugins/
 done
-# conf plus client + server
+# conf plus 
 VER=9.7
-cp valheimplus/valheim_plus_$VER.cfg valheimplus/valheim_plus.cfg
-for i in $JEU $JEUELSA $SRV $SRVELSA ; do
-	cp valheimplus/valheim_plus_$VER.cfg $i/BepInEx/config/valheim_plus.cfg
-done
-cp valheimplus/*.dll $SRVELSA/BepInEx/plugins/
-cp valheimplus/*.dll $SRV/BepInEx/plugins/
+cp valheimplus/valheim_plus_$VER.cfg client-server/config/commun/valheim_plus.cfg
 
-# conf 
-cp client/config/commun/* $JEU/BepInEx/config/
-cp client/config/commun/* $JEUELSA/BepInEx/config/
-cp client/config/base/*   $JEU/BepInEx/config/
-cp client/config/elsa/*   $JEUELSA/BepInEx/config/
+# client version base
+cp client/config/commun/*         $JEU/BepInEx/config/
+cp -R client/plugins/commun/      $JEU/BepInEx/plugins/client-commun/
 
-# plugins
-cp -R client/plugins/commun/ $JEU/BepInEx/plugins/client-commun/
-cp -R client/plugins/commun/ $JEUELSA/BepInEx/plugins/client-commun/
-cp -R client/plugins/base/   $JEU/BepInEx/plugins/client-base/
-cp -R client/plugins/elsa/   $JEUELSA/BepInEx/plugins/client-elsa/
+cp client/config/base/*           $JEU/BepInEx/config/
+cp -R client/plugins/base/        $JEU/BepInEx/plugins/client-base/
 
-# plugins et conf pour le jeu de base
+cp client-server/config/commun/*    $JEU/BepInEx/config/
+cp -R client-server/plugins/commun/ $JEU/BepInEx/plugins/client-server/
+
+cp client-server-base/config/*    $JEU/BepInEx/config/
 cp -R client-server-base/plugins/ $JEU/BepInEx/plugins/client-server-base/
+
+# client version elsa
+cp client/config/commun/*        $JEUELSA/BepInEx/config/
+cp -R client/plugins/commun/     $JEUELSA/BepInEx/plugins/client-commun/
+
+cp client/config/elsa/*          $JEUELSA/BepInEx/config/
+cp -R client/plugins/elsa/       $JEUELSA/BepInEx/plugins/client-elsa/
+
+cp client-server/config/commun/*    $JEUELSA/BepInEx/config/
+cp -R client-server/plugins/commun/ $JEUELSA/BepInEx/plugins/client-server/
+
+cp client-server-elsa/config/*    $JEUELSA/BepInEx/config/
+cp -R client-server-elsa/plugins/ $JEUELSA/BepInEx/plugins/client-server-elsa/
+
+# server version base
+cp client-server/config/commun/*    $SRV/BepInEx/config/
+cp -R client-server/plugins/commun/ $SRV/BepInEx/plugins/client-server/
+
+cp client-server-base/config/*    $SRV/BepInEx/config/
 cp -R client-server-base/plugins/ $SRV/BepInEx/plugins/client-server-base/
 
-cp client-server-base/config/* $JEU/BepInEx/config/
-cp client-server-base/config/* $SRV/BepInEx/config/
-	
-# plugins et conf elsa
-cp -R client-server-elsa/plugins/ $JEUELSA/BepInEx/plugins/client-server-elsa/
+# server version elsa
+cp client-server/config/commun/*    $SRVELSA/BepInEx/config/
+cp -R client-server/plugins/commun/ $SRVELSA/BepInEx/plugins/client-server/
+
+cp client-server-elsa/config/*    $SRVELSA/BepInEx/config/
 cp -R client-server-elsa/plugins/ $SRVELSA/BepInEx/plugins/client-server-elsa/
-
-cp client-server-elsa/config/* $JEUELSA/BepInEx/config/
-cp client-server-elsa/config/* $SRVELSA/BepInEx/config/
-
-
