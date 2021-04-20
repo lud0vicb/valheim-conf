@@ -35,7 +35,7 @@ copy client-server\config\commun\*.cfg %valheim%\BepInEx\config\
 robocopy /e client\plugins\commun\      %valheim%\BepInEx\plugins\client-commun\
 robocopy /e client\plugins\base\        %valheim%\BepInEx\plugins\client-base\
 robocopy /e client-server-base\plugins\ %valheim%\BepInEx\plugins\client-server-base\
-robocopy /e client-server\plugins\      %valheim%\BepInEx\plugins\client-server\
+robocopy /e client-server\plugins\commun\      %valheim%\BepInEx\plugins\client-server\
 
 copy *.cmd %valheim%
 rem del %valheim%\BepInEx\plugins\InvisHelm.dll
@@ -46,10 +46,10 @@ copy client\config\elsa\*.*             %valerheim%\BepInEx\config\
 copy client-server-elsa\config\*.cfg    %valerheim%\BepInEx\config\
 copy client-server\config\commun\*.cfg  %valerheim%\BepInEx\config\
 
-robocopy /e client\plugins\commun\      %valerheim%\BepInEx\plugins\client-commun\
-robocopy /e client\plugins\elsa\        %valerheim%\BepInEx\plugins\client-elsa\
-robocopy /e client-server-elsa\plugins\ %valerheim%\BepInEx\plugins\client-server-elsa\
-robocopy /e client-server\plugins\      %valerheim%\BepInEx\plugins\client-server\
+robocopy /e client\plugins\commun\        %valerheim%\BepInEx\plugins\client-commun\
+robocopy /e client\plugins\elsa\          %valerheim%\BepInEx\plugins\client-elsa\
+robocopy /e client-server-elsa\plugins\   %valerheim%\BepInEx\plugins\client-server-elsa\
+robocopy /e client-server\plugins\commun\ %valerheim%\BepInEx\plugins\client-server\
 
 copy *.cmd %valerheim%
 rem del %valerheim%\BepInEx\plugins\InvisHelm.dll
