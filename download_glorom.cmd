@@ -41,8 +41,8 @@ copy client-server-base\*.cfg %valheim%\BepInEx\config\
 rem del %valheim%\BepInEx\plugins\InvisHelm.dll
 
 echo 'installation config jeu plugins elsa'
-copy client\config\commun\*.cfg %valerheim%\BepInEx\config\
-copy client\config\elsa\*.cfg   %valerheim%\BepInEx\config\
+copy client\config\commun\*.* %valerheim%\BepInEx\config\
+copy client\config\elsa\*.*   %valerheim%\BepInEx\config\
 robocopy /e client\plugins\commun\   %valerheim%\BepInEx\plugins\client-commun\
 robocopy /e client\plugins\elsa\   %valerheim%\BepInEx\plugins\client-elsa\
 copy *.cmd %valerheim%
