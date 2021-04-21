@@ -6,7 +6,7 @@ SRVELSA=/mnt/c/jeux/steamapps/common/Valerheim-server
 
 # clean
 [ -d /tmp/CustomTextures ] && rm -rf /tmp/CustomTextures
-[ -d $JEU/BepInEx/plugins/CustomTextures ] && cp -R $JEU/BepInEx/plugins/CustomTextures /tmp/
+[ -d $JEU/BepInEx/plugins/client-commun/CustomTextures ] && cp -R $JEU/BepInEx/plugins/CustomTextures /tmp/
 for a in $JEU $JEUELSA $SRV $SRVELSA ; do
 	rm -rf $a/BepInEx/config/
 	rm -rf $a/BepInEx/plugins/
@@ -14,7 +14,7 @@ for a in $JEU $JEUELSA $SRV $SRVELSA ; do
 	mkdir  $a/BepInEx/plugins/
 done
 for b in $JEU $JEUELSA ; do
-	[ -d /tmp/CustomTextures ] && cp -R /tmp/CustomTextures $b/BepInEx/plugins/
+	[ -d /tmp/CustomTextures ] && cp -R /tmp/CustomTextures $b/BepInEx/plugins/client-commun/
 done
 # conf plus 
 VER=9.7
