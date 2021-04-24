@@ -14,9 +14,6 @@ for a in $JEU $JEUELSA $SRV $SRVELSA ; do
 	mkdir  $a/BepInEx/config/
 	mkdir  $a/BepInEx/plugins/
 done
-for b in $JEU $JEUELSA ; do
-	[ -d /tmp/CustomTextures ] && cp -R /tmp/CustomTextures $b/BepInEx/plugins/client-commun/
-done
 # conf plus 
 VER=9.7
 cp valheimplus/valheim_plus_$VER.cfg client-server/config/commun/valheim_plus.cfg
@@ -60,3 +57,7 @@ cp -R client-server/plugins/commun/ $SRVELSA/BepInEx/plugins/client-server/
 
 cp client-server-elsa/config/*    $SRVELSA/BepInEx/config/
 cp -R client-server-elsa/plugins/ $SRVELSA/BepInEx/plugins/client-server-elsa/
+
+for b in $JEU $JEUELSA ; do
+	[ -d /tmp/CustomTextures ] && cp -R /tmp/CustomTextures $b/BepInEx/plugins/client-commun/CustomTextures
+done
