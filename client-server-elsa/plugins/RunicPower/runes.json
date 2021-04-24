@@ -27,7 +27,7 @@
                 ]
             },
             "resources": [
-                "GreydwarfEye:10"
+                "TrophyGreydwarfShaman:1"
             ],
             "sfx": {
                 "name": "sfx_OpenPortal"
